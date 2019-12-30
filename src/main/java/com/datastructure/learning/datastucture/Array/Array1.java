@@ -15,7 +15,7 @@ public class Array1 {
      * 定义一个有参构造器,传入数组的容量capacity构造Array
      * */
     public Array1(int capacity){
-        //capacity容量最多可以装的元素个数
+        //capacity容量,最多可以装的元素个数
         data=new int [capacity];
         //实际装的元素个数，设置初始值为0
         size=0;
@@ -63,7 +63,7 @@ public class Array1 {
         //或者两行直接写成data[size++]=e
 
         //可以复用add的方法,可以将上面的内容全部替换成下面的这一个方法
-      //  add(size,e);
+       //  add(size,e);
 
     }
 
