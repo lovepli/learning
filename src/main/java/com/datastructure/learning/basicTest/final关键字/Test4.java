@@ -32,8 +32,11 @@ public class Test4 {
         System.out.println("#########"+f);
         System.out.println("#########"+ff);
 
+        //引用被final修饰的情况
         final Fi f2 = new Fi();
        // f2=new Fi();// 报错 final修饰引用，所以引用是不可变的
+
+       // TODO 总结：//final修饰类型，实例对象在堆中的内存地址不可变，final修饰对象的引用，引用不可变
 
     }
 

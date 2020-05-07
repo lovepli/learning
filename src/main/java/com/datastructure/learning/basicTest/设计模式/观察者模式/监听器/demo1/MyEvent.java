@@ -12,9 +12,11 @@ import java.util.Date;
  * @description: 事件实现：MyEvent
  */
 public class MyEvent implements Event {
+
      //记录日志的两种方法
     private  Log log = LogFactory.getLog(getClass());
-   // private static Log log2 = LogFactory.getLog(MyEvent.class);
+    // static修饰的变量在内存中保存唯一份 TODO 定义一个能在该类所有对象中共享的变量log2
+    private static  Log log2 = LogFactory.getLog(MyEvent.class);
 
     private SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
 

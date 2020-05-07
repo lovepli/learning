@@ -67,7 +67,9 @@ enum WeekDayEnum {
     }
 
     //定义全局变量 命名规范：全部大写，多个单词之间通过下划线隔开
+    //必须强调的一点是，当声明一个final的引用时， 只能说明该引用是不可变的(WEEK_ENUM_MAP 不可变)，但是数据是可变的，所以我们可以往map中添加元素
     private static final Map<Integer, WeekDayEnum> WEEK_ENUM_MAP = new HashMap<Integer, WeekDayEnum>();
+    //WEEK_ENUM_MAP=new HashMap<Integer, WeekDayEnum>();  //这里引用被final修饰，是不变的，所以编译报错
 
     // 对map进行初始化
     static {
