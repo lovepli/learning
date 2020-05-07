@@ -15,7 +15,7 @@ public class qq2 {
 
     public Runnable run1 = new Runnable() {
         public void run() {
-            synchronized (this) { //设置关键字 synchronized，以当前类为锁
+            synchronized (this) { //设置关键字 synchronized关键字，以当前类为锁
                 while (count < 10) {
                     try {
                         //打印是否执行该方法
