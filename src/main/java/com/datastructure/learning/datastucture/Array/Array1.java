@@ -8,8 +8,8 @@ package com.datastructure.learning.datastucture.Array;
 */
 public class Array1 {
 
-    private int[] data;
-    private int size;
+    private int[] data; //整型数组
+    private int size;   //数组长度
 
     /**
      * 定义一个有参构造器,传入数组的容量capacity构造Array
