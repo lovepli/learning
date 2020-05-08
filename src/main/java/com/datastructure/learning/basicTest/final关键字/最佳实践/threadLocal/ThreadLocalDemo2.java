@@ -1,4 +1,4 @@
-package com.datastructure.learning.basicTest.final关键字.最佳实践;
+package com.datastructure.learning.basicTest.final关键字.最佳实践.threadLocal;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
