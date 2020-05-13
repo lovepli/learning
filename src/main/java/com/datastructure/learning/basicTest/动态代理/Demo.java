@@ -22,4 +22,29 @@ public class Demo {
      *
      * 5、AOP 编程就是基于动态代理实现的，比如著名的 Spring 框架、 Hibernate 框架等等都是动态代理的使用例子。
      */
+
+    /**
+     * 二、动态代理
+     * 代理模式为其它对象提供一种代理以控制对这个对象的访问。在某些情况下，一个客户不想或者不能直接引用另一个对象，而代理对象可以在客户端和目标对象之间起到中介的作用。
+     *
+     * 动态代理是指客户通过代理类来调用其它对象的方法，主要使用了Java反射机制来实现动态代理。使用Java的反射机制创建动态代理对象，让代理对象在调用目标方法之前和之后分别做一些事情，然后动态代理对象决定是否调用以及何时来调用被代理对象的方法。
+     *
+     * Java动态代理类位于java.lang.reflect包下，一般主要涉及到以下两个类。
+     *
+     * （1）InvocationHandler：该接口中仅定义了一个方法 public object invoke(Object proxy,Method method, Object[] args)，其中第一个参数proxy是代理类的实例，method是被代理的方法，即需要执行的方法，args为该方法的参数数组。这个抽象方法在代理类中动态实现。
+     *
+     * （2）Proxy：该类即为动态代理类。
+     *
+     * 动态代理的步骤
+     *
+     * （1）创建一个实现接口InvocationHandler的类，它必须实现invoke方法；
+     *
+     * （2）创建被代理的接口以及实现类；
+     *
+     * （3）通过Proxy的静态方法
+     *
+     * newProxyInstance(ClassLoader loader, Class[] interfaces, InvocationHandler h) 创建一个代理；
+     *
+     * （4）通过代理调用方法。
+     */
 }
