@@ -2,617 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/BusinessClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/BusinessInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/DynamicProxyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/InterceptorClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/FastJsonUtilBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/JsonUtilBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/Error.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/树结构转换/Menu2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/树结构转换/TreeUtil3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/容器/map相关/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/过滤器模式/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/过滤器模式/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/过滤器模式/FilterContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/过滤器模式/Filter_A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/过滤器模式/Filter_B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/过滤器模式/Filter_C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/过滤器模式/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/动态代理/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/动态代理/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/动态代理/ProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/动态代理/ProxyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/反射/reflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/反射/reflect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/learning.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/DatastructureApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Bi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/CheapPersonalLoan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Ci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Fi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/PersonalLoan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/PersonalLoan2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Si.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Test3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Test4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/final和jvm的关系/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/final和jvm的关系/FinalExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/Color2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/Color3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/Color3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalMethodTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalTest3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalTest4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/Finaloverload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/PrivateFinalMethodTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/Sub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/Sub2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalExample2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalExample2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/CarConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/CarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Demo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Demo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Person$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Person$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Singleton2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Task$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Task2$SubTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Task2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/WeekDayEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo1/Outer$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo1/Outer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Outter$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Outter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Outter2$Inner2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Outter2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test2$Man$1Woman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test2$Man.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test2$People.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test22$InheritInner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test22$WithInner$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test22$WithInner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Bean$Bean3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Bean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Outter$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Outter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Test2$Bean1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Test2$Bean2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/匿名内部类/ISay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/匿名内部类/Program$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/匿名内部类/Program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/分页类/PageBean$Article.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/分页类/PageBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/动态代理/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/动态代理/ProxyDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/动态代理/ProxyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/反射/reflect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/A1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/A2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/A3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/A4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/B4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java代码块执行顺序/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java代码块执行顺序/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java代码块执行顺序/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java代码块执行顺序/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/beanUtils/ServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/beanUtils/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/beanUtils/UserDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/强制类型转换/Demo1$Father.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/强制类型转换/Demo1$Son.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/强制类型转换/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/抽象类/Person2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/抽象类/Student2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/Chinese.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/GuangDong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/InterFaceDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/InterFaceDemo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/InterFaceDemo$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/InterFaceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/Mayun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/demo2/Chinese.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/demo2/GuangDongextends.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/demo2/InterDemo2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/demo2/InterDemo2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/demo2/InterDemo2$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/demo2/InterDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/demo2/Mayun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/数据类型考题/BasicDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/数据类型考题/Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/数据类型考题/String字符串类型/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/数据类型考题/String字符串类型/demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/自动装箱和拆箱/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest2/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest2/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest3/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest3/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest3/Father.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest3/Son.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest3/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest4/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest4/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest4/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest4/Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest5/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest5/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest5/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest5/instanceoftest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/互斥同步/Bussiness.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/互斥同步/Tdemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/互斥同步/Tdemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/基本概念/CallableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/基本概念/MyCallable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/基本概念/RunnableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/基本概念/ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/RunnableCusToIncTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/ShareData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/Demo3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/Demo3$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/Demo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/RunnableCusToDec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/RunnableCusToInc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/ShareData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/ShareData3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/定时器Timer/TimerTastCus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/线程局部变量ThreadLocal/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/线程局部变量ThreadLocal/ThreadLocalTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/MyThread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/MyThread3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/MyThread4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/Test3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/Test4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo1/Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo1/VolatileTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo1/VolatileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo2/SemaphoreTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo2/SemaphoreTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication2$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo5/DeadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo6/DeadLock$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo6/DeadLock$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo6/DeadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo6/DeadLock2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo6/DeadLock2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo6/DeadLock2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/MySignal$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/MySignal$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/MySignal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/ProducerConsumerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/Resource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/deno4/qq$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/deno4/qq$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/deno4/qq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/deno4/qq2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/deno4/qq2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/deno4/qq2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/synchronized关键字/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/synchronized关键字/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/容器/HashMapDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean1/CloneUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean1/Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean1/DemoInternal2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean1/test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean2/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean2/DemoInternal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean2/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean3/BeanUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean4/Body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean4/Face.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean4/Head.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean4/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/序列化/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/序列化/CloneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/序列化/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/序列化/MyUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/序列化/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/序列化/SerializableTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/halfSearch/HalfSearch1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/halfSearch/HalfSearch2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/string/MaxArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/string/MaxArray1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/string/StringDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/string/StringDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/string/StringDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/thread/ThreadExample$Dec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/thread/ThreadExample$Inc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/thread/ThreadExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/recursive/DiGui.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/sort/InsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/sort/MaoPaoSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/sort/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/sort/SelectSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/开发中遇到的问题及解决/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/枚举/EntityType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/枚举/TypeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/枚举/WeekDayEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/demo/Demo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/demo/FruitGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/demo/FruitGenerator2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/demo/Generator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/demo/Generic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型上下边界/Generic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/GenericFruit$Apple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/GenericFruit$Fruit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/GenericFruit$GenerateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/GenericFruit$Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/GenericFruit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/GenericTest$Generic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/GenericTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/StaticGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/类加载和垃圾回收机制/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/类加载和垃圾回收机制/Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/类加载和垃圾回收机制/Demo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/类加载和垃圾回收机制/StaticStuff$Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/类加载和垃圾回收机制/StaticStuff$StaticStuffSon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/类加载和垃圾回收机制/StaticStuff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/NormalHome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/ProxyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/WeddingCompany.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/动态代理/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/动态代理/ProxyDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/动态代理/ProxyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/单例模式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/单例模式/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/单例模式/Singleton1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/单例模式/Singleton2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/单例模式/SingletonDemo_01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/单例模式/SingletonDemo_02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/多个工厂方法模式/FactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/多个工厂方法模式/MailSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/多个工厂方法模式/SendFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/多个工厂方法模式/Sender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/多个工厂方法模式/SmsSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式/MailSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式/Provider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式/SendMailFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式/SendSmsFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式/Sender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式/SmsSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/简单工厂/FactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/简单工厂/MailSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/简单工厂/SendFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/简单工厂/Sender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/简单工厂/SmsSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/静态工厂方法模式/FactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/静态工厂方法模式/MailSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/静态工厂方法模式/SendFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/静态工厂方法模式/Sender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/静态工厂方法模式/SmsSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo1/Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo1/MailSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo1/Sender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo1/SmsSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo1/TestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo2/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo2/AdminBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo2/Build.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo2/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo2/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/注解链式/demo1/Student$StudentBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/注解链式/demo1/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/注解链式/demo1/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/注解链式/demo2/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/注解链式/demo2/Student$StudentBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/注解链式/demo2/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/注解链式/demo2/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/链式/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/链式/User$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/链式/User$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/链式/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/链式/User2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/策略模式/AbstractCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/策略模式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/策略模式/ICalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/策略模式/Minus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/策略模式/Plus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/策略模式/StrategyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/装饰模式/Decorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/装饰模式/DecoratorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/装饰模式/Source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/装饰模式/Sourceable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/AbstractSubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/MySubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/Observer1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/Observer2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/ObserverTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/EventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/EventSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/MyEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/MyListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/MySource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/EventSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/EventSource2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/IEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/IEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/Test$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/对象的适配器模式/AdapterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/对象的适配器模式/Source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/对象的适配器模式/Targetable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/对象的适配器模式/Wrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/接口的适配器模式/Adapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/接口的适配器模式/AdapterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/接口的适配器模式/Source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/接口的适配器模式/Targetable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/类的适配器模式/Adapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/类的适配器模式/AdapterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/类的适配器模式/Source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/类的适配器模式/Targetable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo2/ListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo2/Person2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo2/Student2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo3/LinkedListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo4/MapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo5/ArrayAndLinkedLIst.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo5/ArrayAndLinkedLIst2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo5/demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/hashmapdemo/HashMapTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/hashmapdemo/HashMapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/hashmapdemo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/hashmapdemo/hashmap遍历方式/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/hashmapdemo/hashmap遍历方式/HashMapTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/AVLSetAndMap/AVLMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/AVLSetAndMap/AVLSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/AVLSetAndMap/TestMapMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/AVLSetAndMap/TestSetMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/AVLTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/AVLTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/BST/BST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/BST/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/BST/BSTMap$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/BST/BSTMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/BST/BSTSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Array/Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Array/Array1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Array/Array2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Array/Array3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Array/ArrayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Array/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/BinarySearchTree/BST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/BinarySearchTree/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/BinarySearchTree/BSTTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Hash/HashTable/HashTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Hash/HashTable/HashTable1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Hash/HashTable/HashTableTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Hash/HashTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Hash/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Hash/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Heap/MaxHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Heap/MaxHeap1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Heap/MaxHeapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Heap/PriorityQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList2$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/ArrayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LoopQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/QueueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/Main2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/Main3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/RBTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/RBTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/Solution$RBTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/Solution$RBTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SegmentTree/Merger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SegmentTree/SegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SegmentTree/SegmentTreeTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SegmentTree/SegmentTreeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/map/BSTMap$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/map/BSTMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/map/LinkedListMap$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/map/LinkedListMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/map/Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/map/MapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/map/util/FileOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/set/BSTSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/set/LinkedListSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/set/Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/set/SetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/set/util/FileOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Stack/ArrayStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Stack/LinkedListStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Stack/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Stack/StackTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Trie/TireTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Trie/Trie$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Trie/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Trie/Trie208$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Trie/Trie208.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/Solution$UF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/Solution$UnionFind6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/UF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/UnionFind1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/UnionFind2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/UnionFind3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/UnionFind4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/UnionFind5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/UnionFind6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution349$AVLSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution349$AVLTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution349$AVLTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution349$Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution349.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution350$AVLMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution350$AVLTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution350$AVLTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution350$Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution350.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArray2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArray3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArray4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArrayComplete$Merger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArrayComplete$SegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArrayComplete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArrayComplete2$Merger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArrayComplete2$SegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArrayComplete2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution$Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution$Freq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution$MaxHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution$PriorityQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution$Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution1$Freq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution2$Freq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution3$Freq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution3$FreqComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution4$Freq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution5$Freq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/setAndMap/map/Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/setAndMap/set/Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/setAndMap/set/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/stack/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/trie/MapSum$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/trie/MapSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/trie/WordDictionary$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/trie/WordDictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/datastructure/learning/DatastructureApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/datastructure/learning/datastucture/ArrayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/datastructure/learning/debug练习/Debug.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/分页类/PageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/分页类/PageBean.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/BusinessClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/DynamicProxyHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/InterceptorClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/BusinessInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -624,79 +51,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>value</find>
-      <find>equals</find>
-      <find>trimToSize</find>
-      <find>Bussiness</find>
-      <find>透明</find>
-      <find>sdf</find>
-      <find>bind</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/Event.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/TestMySource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/EventSource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/MyListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/MySource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/MyEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/Demo1/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/IEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/IEventListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/EventSource2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/内部类/匿名内部类/ISay.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/内部类/匿名内部类/Program.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/EventSource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/Test1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/Test2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/Test3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/Demo1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/Color.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalTest2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalTest3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalTest4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/final和jvm的关系/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/final和jvm的关系/FinalExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/Test4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/static关键字/Demo3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/MyEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/ThreadLocalDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/ThreadLocalDemo2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/ThreadLocalExample2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/ThreadLocalExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/多线程面试题/demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/多线程面试题/synchronized关键字/Demo1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/多线程基础机制/线程局部变量ThreadLocal/ThreadLocalTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/集合/hashmapdemo/hashmap遍历方式/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/集合/hashmapdemo/hashmap遍历方式/HashMapTest1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/反射/reflect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/动态代理/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/动态代理/ProxyDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/BusinessInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/BusinessClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/InterceptorClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/DynamicProxyHandler.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JRebelWorkspace">
-    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -707,235 +63,23 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="datastructure" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="379" />
-    <option name="y" value="33" />
-    <option name="width" value="1440" />
-    <option name="height" value="753" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="NBKnowledgePane" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basicTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basicTest" type="462c0819:PsiDirectoryNode" />
-              <item name="拦截器" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basicTest" type="462c0819:PsiDirectoryNode" />
-              <item name="枚举" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basicTest" type="462c0819:PsiDirectoryNode" />
-              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basicTest" type="462c0819:PsiDirectoryNode" />
-              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
-              <item name="观察者模式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basicTest" type="462c0819:PsiDirectoryNode" />
-              <item name="集合" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basicTest" type="462c0819:PsiDirectoryNode" />
-              <item name="集合" type="462c0819:PsiDirectoryNode" />
-              <item name="demo2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basicTest" type="462c0819:PsiDirectoryNode" />
-              <item name="集合" type="462c0819:PsiDirectoryNode" />
-              <item name="demo2" type="462c0819:PsiDirectoryNode" />
-              <item name="ListDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basicTest" type="462c0819:PsiDirectoryNode" />
-              <item name="集合" type="462c0819:PsiDirectoryNode" />
-              <item name="demo3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basicTest" type="462c0819:PsiDirectoryNode" />
-              <item name="集合" type="462c0819:PsiDirectoryNode" />
-              <item name="demo4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basicTest" type="462c0819:PsiDirectoryNode" />
-              <item name="集合" type="462c0819:PsiDirectoryNode" />
-              <item name="demo5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basicTest" type="462c0819:PsiDirectoryNode" />
-              <item name="集合" type="462c0819:PsiDirectoryNode" />
-              <item name="hashmapdemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="datastucture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="datastucture" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="datastucture" type="462c0819:PsiDirectoryNode" />
-              <item name="Hash" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1bqb6ajT3L4T5X2CO0CrZDCsyWJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/代理模式" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/树结构转换" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.40954095" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -944,23 +88,23 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.datastructure.learning.basicTest.多线程和并发.多线程共享数据" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.datastructure.learning.basicTest.设计模式.适配器模式.对象的适配器模式" />
       <recent name="com.datastructure.learning.basicTest.helpBean.testExample3" />
       <recent name="com.datastructure.learning.basicTest.helpBean" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/树结构转换" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/代理模式" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/适配器模式/接口的适配器模式" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/适配器模式/对象的适配器模式" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/建造者模式" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -969,19 +113,20 @@
       <select />
     </treeState>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.TestDemo">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.设计模式.过滤器模式.Client" />
+      <module name="learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.datastructure.learning.basicTest.设计模式.过滤器模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.拦截器.Client" />
       <module name="learning" />
@@ -995,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.final关键字.最佳实践.FinalTest3" />
+    <configuration name="JsonUtilBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.实用帮助类.json转换工具类.JsonUtilBean" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.basicTest.final关键字.最佳实践.threadLocal.*" />
+          <option name="PATTERN" value="com.datastructure.learning.basicTest.实用帮助类.json转换工具类.fastjson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1008,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.动态代理.ProxyDemo" />
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.实用帮助类.json转换工具类.fastjson.TestDemo" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.basicTest.动态代理.*" />
+          <option name="PATTERN" value="com.datastructure.learning.basicTest.实用帮助类.json转换工具类.fastjson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1021,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.final关键字.最佳实践.threadLocal.ThreadLocalExample" />
+    <configuration name="TreeUtil3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.实用帮助类.树结构转换.TreeUtil3" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.basicTest.final关键字.最佳实践.threadLocal.*" />
+          <option name="PATTERN" value="com.datastructure.learning.basicTest.实用帮助类.树结构转换.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1034,31 +179,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.多线程基础机制.线程局部变量ThreadLocal.ThreadLocalTest" />
+    <configuration name="DatastructureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.basicTest.多线程基础机制.线程局部变量ThreadLocal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.datastructure.learning.DatastructureApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDemo" />
+        <item itemvalue="Application.JsonUtilBean" />
+        <item itemvalue="Application.TreeUtil3" />
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.ProxyDemo" />
-        <item itemvalue="Application.ThreadLocalTest" />
-        <item itemvalue="Application.ThreadLocalExample" />
-        <item itemvalue="Application.FinalTest3" />
       </list>
     </recent_temporary>
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,SHOW_LAMBDA" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1070,6 +209,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575910338754</updated>
+      <workItem from="1589425367422" duration="160000" />
+      <workItem from="1589426382655" duration="131000" />
+      <workItem from="1589426539502" duration="300000" />
+      <workItem from="1589849874523" duration="6330000" />
+      <workItem from="1589868156659" duration="3851000" />
     </task>
     <servers />
   </component>
@@ -1096,50 +240,66 @@
       <configuration name="com.datastructure.learning.basicTest.设计模式.观察者模式.监听器 in learning" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="379" y="33" width="1440" height="753" extended-state="1" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.24678111" />
-      <window_info id="Structure" order="1" sideWeight="0.50183153" side_tool="true" weight="0.3422502" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Designer" order="3" />
-      <window_info id="JRebel" order="4" side_tool="true" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49318182" weight="0.32215744" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7030303" weight="0.22995462" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.84972465" weight="0.39617833" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Tail" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49881983" weight="0.32738853" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="JRebel Executor" order="12" sideWeight="0.4985694" weight="0.1656051" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4985694" weight="0.32780612" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="14" sideWeight="0.49881983" weight="0.32944608" />
-      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.5068182" side_tool="true" weight="0.27113703" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="16" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
-      <window_info anchor="bottom" id="MyBatis Log" order="18" />
-      <window_info anchor="bottom" id="Statistic" order="19" weight="0.328877" />
-      <window_info anchor="bottom" id="Problems" order="20" />
-      <window_info anchor="bottom" id="Sequence" order="21" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49933246" weight="0.24941905" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32997677" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Word Book" order="6" sideWeight="0.35824177" side_tool="true" weight="0.2061369" />
-      <window_info anchor="right" id="RestServices" order="7" sideWeight="0.64175826" weight="0.3297568" />
-      <window_info anchor="right" id="leetcode" order="8" side_tool="true" />
-      <window_info anchor="right" id="Key Promoter X" order="9" sideWeight="0.5692308" weight="0.3297568" />
-      <window_info anchor="right" id="Codota" order="10" weight="0.31688127" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="657" y="393" key="#Notifications" timestamp="1589426776512">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="657" y="393" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1589426776512" />
+    <state x="604" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1589855878775">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="604" y="109" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1589855878775" />
+    <state x="220" y="363" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589849946332">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="220" y="363" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1589849946332" />
+    <state width="1398" height="283" key="GridCell.Tab.0.bottom" timestamp="1589867094988">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="283" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589867094988" />
+    <state width="1398" height="283" key="GridCell.Tab.0.center" timestamp="1589867094987">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="283" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589867094987" />
+    <state width="1398" height="283" key="GridCell.Tab.0.left" timestamp="1589867094987">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="283" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589867094987" />
+    <state width="1398" height="283" key="GridCell.Tab.0.right" timestamp="1589867094988">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="283" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589867094988" />
+    <state width="1398" height="283" key="GridCell.Tab.1.bottom" timestamp="1589867094989">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="283" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589867094989" />
+    <state width="1398" height="283" key="GridCell.Tab.1.center" timestamp="1589867094989">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="283" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1589867094989" />
+    <state width="1398" height="283" key="GridCell.Tab.1.left" timestamp="1589867094988">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="283" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1589867094988" />
+    <state width="1398" height="283" key="GridCell.Tab.1.right" timestamp="1589867094989">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="283" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1589867094989" />
+    <state x="258" y="93" key="Maven.ArtifactSearchDialog" timestamp="1589854623935">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="258" y="93" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1589854623935" />
+    <state x="79" y="120" width="1110" height="722" key="SettingsEditor" timestamp="1589426604105">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="79" y="120" width="1110" height="722" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1589426604105" />
+    <state x="176" y="134" key="new project wizard" timestamp="1589868441012">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="176" y="134" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1589868441012" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1148,37 +308,31 @@
           <condition expression="i=10" language="JAVA" />
           <url>file://$PROJECT_DIR$/src/test/java/com/datastructure/learning/debug练习/Debug.java</url>
           <line>20</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/datastructure/learning/debug练习/Debug.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/datastructure/learning/debug练习/Debug.java</url>
           <line>47</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/datastructure/learning/debug练习/Debug.java</url>
           <line>50</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/datastructure/learning/debug练习/Debug.java</url>
           <line>52</line>
-          <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/datastructure/learning/debug练习/Debug.java</url>
           <line>65</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
@@ -1196,407 +350,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/内部类/匿名内部类/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/内部类/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/EventSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/EventSource2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/MyListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/EventSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/EventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/MySource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/Test4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/final和jvm的关系/FinalExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="93" selection-start-line="5" selection-start-column="93" selection-end-line="5" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/final和jvm的关系/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/MyEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/多线程并发库/demo/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/多线程面试题/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/多线程面试题/synchronized关键字/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="85" column="51" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/多线程基础机制/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/多线程基础机制/线程局部变量ThreadLocal/ThreadLocalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/RunnableCusToIncTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Array/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Array/Array1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/集合/demo2/ListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Array/ArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Array/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalExample2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Hash/HashTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Hash/HashTable/HashTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/集合/hashmapdemo/hashmap遍历方式/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/集合/hashmapdemo/hashmap遍历方式/HashMapTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/集合/hashmapdemo/HashMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/反射/reflect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/MySubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
-          <folding>
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6351#6352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/动态代理/ProxyDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/观察者模式/AbstractSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/动态代理/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/BusinessClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/BusinessInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/InterceptorClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/拦截器/DynamicProxyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
