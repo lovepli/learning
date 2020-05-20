@@ -2,41 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/FastJsonUtilBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/JsonUtilBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/Error.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/树结构转换/Menu2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/树结构转换/TreeUtil3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/容器/map相关/MapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/过滤器模式/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/过滤器模式/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/过滤器模式/FilterContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/过滤器模式/Filter_A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/过滤器模式/Filter_B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/过滤器模式/Filter_C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/过滤器模式/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_19_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160810.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/annotation/IdentityCardNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/exception/BizException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/exception/DuplicateKeyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/group/Create.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/group/Update.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/response/RspDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/utils/IdCardValidatorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/valid/IdentityCardNumberValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/StringUtils帮助类/StringUtilsBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/jsonfield的使用/JsonObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/jsonfield的使用/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/jsonfield的使用/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/jsonfield的使用/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/AppleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/AppleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/AppleVO2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/groups/Create.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/groups/Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/groups/Update.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/jacksonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/validator/ValidatorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/validator/group/AddGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/validator/group/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/validator/group/UpdateGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/Error.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/jacksonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/jsonfiled/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/jsonfiled/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/jsonfiled/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/jsonfiled/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/分页类/PageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/分页类/PageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/FastJsonUtilBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/FastJsonUtilBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/JsonUtilBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/JsonUtilBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/fastjson/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/fastjson/Error.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/fastjson/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/FastJsonUtilBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/JsonUtilBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/Error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/TestDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/TestDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/TestDemo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -44,15 +85,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -75,7 +119,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/树结构转换" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation参数校验" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.40954095" />
@@ -86,25 +130,28 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.datastructure.learning.basicTest.实用帮助类.fastjson的使用.jsonfield的使用" />
       <recent name="com.datastructure.learning.basicTest.多线程和并发.多线程共享数据" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.datastructure.learning.basicTest.设计模式.适配器模式.对象的适配器模式" />
-      <recent name="com.datastructure.learning.basicTest.helpBean.testExample3" />
-      <recent name="com.datastructure.learning.basicTest.helpBean" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/树结构转换" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/代理模式" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/适配器模式/接口的适配器模式" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/适配器模式/对象的适配器模式" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/建造者模式" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.datastructure.learning.basicTest.validation参数校验.controller" />
+      <recent name="com.datastructure.learning.basicTest.实用帮助类.jackson的使用" />
+      <recent name="com.datastructure.learning.basicTest.实用帮助类.其他javabean注解" />
+      <recent name="com.datastructure.learning.basicTest.设计模式.适配器模式.对象的适配器模式" />
+      <recent name="com.datastructure.learning.basicTest.helpBean.testExample3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation参数校验" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/jsonfiled" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -113,13 +160,13 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.TestDemo">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.设计模式.过滤器模式.Client" />
+  <component name="RunManager" selected="Application.AppleTest">
+    <configuration name="AppleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.实用帮助类.jackson的使用.AppleTest" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.basicTest.设计模式.过滤器模式.*" />
+          <option name="PATTERN" value="com.datastructure.learning.basicTest.实用帮助类.jackson的使用.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.拦截器.Client" />
+    <configuration name="AppleVO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.实用帮助类.jackson的使用.AppleVO" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.basicTest.拦截器.*" />
+          <option name="PATTERN" value="com.datastructure.learning.basicTest.实用帮助类.jackson的使用.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonUtilBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.实用帮助类.json转换工具类.JsonUtilBean" />
+    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.json.fastjson.jsonfiled.PersonTest" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.basicTest.实用帮助类.json转换工具类.fastjson.*" />
+          <option name="PATTERN" value="com.datastructure.learning.json.fastjson.jsonfiled.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +201,11 @@
       </method>
     </configuration>
     <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.实用帮助类.json转换工具类.fastjson.TestDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.json.fastjson.TestDemo" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.basicTest.实用帮助类.json转换工具类.fastjson.*" />
+          <option name="PATTERN" value="com.datastructure.learning.json.fastjson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +213,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeUtil3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.实用帮助类.树结构转换.TreeUtil3" />
+    <configuration name="jacksonTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.json.fastjson.jacksonTest" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.basicTest.实用帮助类.树结构转换.*" />
+          <option name="PATTERN" value="com.datastructure.learning.json.fastjson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jacksonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.实用帮助类.jackson的使用.jacksonTest" />
+      <module name="learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.datastructure.learning.basicTest.实用帮助类.jackson的使用.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppleTest" />
+        <item itemvalue="Application.AppleVO" />
+        <item itemvalue="Application.jacksonTest" />
+        <item itemvalue="Application.jacksonTest (1)" />
         <item itemvalue="Application.TestDemo" />
-        <item itemvalue="Application.JsonUtilBean" />
-        <item itemvalue="Application.TreeUtil3" />
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -213,32 +273,15 @@
       <workItem from="1589426382655" duration="131000" />
       <workItem from="1589426539502" duration="300000" />
       <workItem from="1589849874523" duration="6330000" />
-      <workItem from="1589868156659" duration="3851000" />
+      <workItem from="1589868156659" duration="3926000" />
+      <workItem from="1589875729045" duration="5668000" />
+      <workItem from="1589892907571" duration="4144000" />
+      <workItem from="1589936241363" duration="193000" />
+      <workItem from="1589936472177" duration="6138000" />
+      <workItem from="1589942775849" duration="6356000" />
+      <workItem from="1589954687705" duration="1201000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="com_datastructure_learning_basicTest_设计模式_建造者模式_demo2_in_learning - 2020.04.25 at 12h 21m 26s.xml">
-      <configuration name="com.datastructure.learning.basicTest.设计模式.建造者模式.demo2 in learning" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_datastructure_learning_basicTest_基础知识_数据类型考题_in_learning - 2020.04.26 at 09h 53m 05s.xml">
-      <configuration name="com.datastructure.learning.basicTest.基础知识.数据类型考题 in learning" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_datastructure_learning_basicTest_基础知识_数据类型考题_String字符串类型_in_learning - 2020.04.26 at 09h 53m 24s.xml">
-      <configuration name="com.datastructure.learning.basicTest.基础知识.数据类型考题.String字符串类型 in learning" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_datastructure_learning_basicTest_泛型_in_learning - 2020.04.26 at 16h 10m 55s.xml">
-      <configuration name="com.datastructure.learning.basicTest.泛型 in learning" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Debug_streamTest - 2020.04.28 at 23h 31m 38s.xml">
-      <configuration name="Debug.streamTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Debug_streamTest - 2020.04.28 at 23h 36m 16s.xml">
-      <configuration name="Debug.streamTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_datastructure_learning_basicTest_设计模式_观察者模式_监听器_in_learning - 2020.05.07 at 10h 00m 16s.xml">
-      <configuration name="com.datastructure.learning.basicTest.设计模式.观察者模式.监听器 in learning" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
@@ -248,54 +291,58 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="657" y="393" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1589426776512" />
-    <state x="604" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1589855878775">
+    <state x="604" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1589943606767">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="604" y="109" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1589855878775" />
-    <state x="220" y="363" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589849946332">
+    <state x="604" y="109" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1589943606767" />
+    <state x="220" y="363" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589956146998">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="220" y="363" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1589849946332" />
-    <state width="1398" height="283" key="GridCell.Tab.0.bottom" timestamp="1589867094988">
+    <state x="220" y="363" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1589956146998" />
+    <state width="1398" height="130" key="GridCell.Tab.0.bottom" timestamp="1589950072980">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="283" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589867094988" />
-    <state width="1398" height="283" key="GridCell.Tab.0.center" timestamp="1589867094987">
+    <state width="1398" height="130" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589950072980" />
+    <state width="1398" height="130" key="GridCell.Tab.0.center" timestamp="1589950072979">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="283" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589867094987" />
-    <state width="1398" height="283" key="GridCell.Tab.0.left" timestamp="1589867094987">
+    <state width="1398" height="130" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589950072979" />
+    <state width="1398" height="130" key="GridCell.Tab.0.left" timestamp="1589950072978">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="283" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589867094987" />
-    <state width="1398" height="283" key="GridCell.Tab.0.right" timestamp="1589867094988">
+    <state width="1398" height="130" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589950072978" />
+    <state width="1398" height="130" key="GridCell.Tab.0.right" timestamp="1589950072979">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="283" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589867094988" />
-    <state width="1398" height="283" key="GridCell.Tab.1.bottom" timestamp="1589867094989">
+    <state width="1398" height="130" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589950072979" />
+    <state width="896" height="134" key="GridCell.Tab.1.bottom" timestamp="1589942758598">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="283" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589867094989" />
-    <state width="1398" height="283" key="GridCell.Tab.1.center" timestamp="1589867094989">
+    <state width="896" height="134" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589942758598" />
+    <state width="896" height="134" key="GridCell.Tab.1.center" timestamp="1589942758597">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="283" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1589867094989" />
-    <state width="1398" height="283" key="GridCell.Tab.1.left" timestamp="1589867094988">
+    <state width="896" height="134" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1589942758597" />
+    <state width="896" height="134" key="GridCell.Tab.1.left" timestamp="1589942758597">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="283" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1589867094988" />
-    <state width="1398" height="283" key="GridCell.Tab.1.right" timestamp="1589867094989">
+    <state width="896" height="134" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1589942758597" />
+    <state width="896" height="134" key="GridCell.Tab.1.right" timestamp="1589942758597">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="283" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1589867094989" />
-    <state x="258" y="93" key="Maven.ArtifactSearchDialog" timestamp="1589854623935">
+    <state width="896" height="134" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1589942758597" />
+    <state x="199" y="224" key="Maven.ArtifactSearchDialog" timestamp="1589955960718">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="258" y="93" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1589854623935" />
-    <state x="79" y="120" width="1110" height="722" key="SettingsEditor" timestamp="1589426604105">
+    <state x="199" y="224" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1589955960718" />
+    <state x="318" y="65" width="1110" height="722" key="SettingsEditor" timestamp="1589936441065">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="79" y="120" width="1110" height="722" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1589426604105" />
+    <state x="318" y="65" width="1110" height="722" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1589936441065" />
+    <state x="278" y="214" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589939560302">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="278" y="214" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.877@0.23.1440.877" timestamp="1589939560302" />
     <state x="176" y="134" key="new project wizard" timestamp="1589868441012">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
