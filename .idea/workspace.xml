@@ -2,74 +2,618 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_19_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160810.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/annotation/IdentityCardNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/exception/BizException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/exception/DuplicateKeyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/group/Create.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/group/Update.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/response/RspDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/utils/IdCardValidatorUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/valid/IdentityCardNumberValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/StringUtils帮助类/StringUtilsBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/jsonfield的使用/JsonObjectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/jsonfield的使用/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/jsonfield的使用/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/jsonfield的使用/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/AppleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/AppleVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/AppleVO2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/groups/Create.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/groups/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/groups/Update.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/jacksonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/validator/ValidatorUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/validator/group/AddGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/validator/group/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/validator/group/UpdateGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/Error.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/jacksonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/jsonfiled/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/jsonfiled/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/jsonfiled/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/jsonfiled/ProductTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/threadlocal关键字/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/threadlocal关键字/ThreadLocalUsage01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/threadlocal关键字/ThreadLocalUsage02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/threadlocal关键字/ThreadLocalUsage04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/threadlocal关键字/ThreadLocalUsage05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/threadlocal关键字/ThreadLocalUsage06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/FastJsonUtilBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/FastJsonUtilBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/JsonUtilBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/JsonUtilBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/fastjson/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/fastjson/Error.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/fastjson/TestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/FastJsonUtilBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/JsonUtilBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/Error.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/TestDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/TestDemo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/json转换工具类/fastjson/TestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/learning.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/DatastructureApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Bi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/CheapPersonalLoan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Ci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Fi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/PersonalLoan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/PersonalLoan2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Si.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/final和jvm的关系/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/final和jvm的关系/FinalExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/Color2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/Color3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/Color3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalMethodTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalTest3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/FinalTest4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/Finaloverload.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/PrivateFinalMethodTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/Sub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/Sub2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalExample2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/final关键字/最佳实践/threadLocal/ThreadLocalExample2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/CarConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/CarFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Demo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Person$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Person$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Singleton2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Task$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Task2$SubTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/WeekDayEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/annotation/IdentityCardNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/dto/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/exception/BizException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/exception/DuplicateKeyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/group/Create.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/group/Update.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/response/RspDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/utils/IdCardValidatorUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/valid/IdentityCardNumberValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo1/Outer$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo1/Outer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Outter$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Outter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Outter2$Inner2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Outter2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test2$Man$1Woman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test2$Man.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test2$People.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test22$InheritInner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test22$WithInner$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test22$WithInner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Bean$Bean3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Bean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Outter$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Outter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Test2$Bean1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Test2$Bean2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/demo2/考题/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/匿名内部类/ISay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/匿名内部类/Program$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/内部类/匿名内部类/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/动态代理/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/动态代理/ProxyDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/动态代理/ProxyDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/反射/reflect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/A1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/A2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/A3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/A4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/B4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java中的代码块/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java代码块执行顺序/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java代码块执行顺序/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java代码块执行顺序/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/Java代码块执行顺序/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/beanUtils/ServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/beanUtils/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/beanUtils/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/强制类型转换/Demo1$Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/强制类型转换/Demo1$Son.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/强制类型转换/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/抽象类/Person2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/抽象类/Student2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/Chinese.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/GuangDong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/InterFaceDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/InterFaceDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/InterFaceDemo$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/InterFaceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/Mayun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/demo2/Chinese.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/demo2/GuangDongextends.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/demo2/InterDemo2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/demo2/InterDemo2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/demo2/InterDemo2$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/demo2/InterDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/接口/demo2/Mayun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/数据类型考题/BasicDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/数据类型考题/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/数据类型考题/String字符串类型/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/数据类型考题/String字符串类型/demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/基础知识/自动装箱和拆箱/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest2/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest2/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest3/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest3/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest3/Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest3/Son.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest3/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest4/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest4/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest4/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest4/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest5/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest5/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest5/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多态/demotest5/instanceoftest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/互斥同步/Bussiness.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/互斥同步/Tdemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/互斥同步/Tdemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/基本概念/CallableDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/基本概念/MyCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/基本概念/RunnableDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/基本概念/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/RunnableCusToIncTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/ShareData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/Demo3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/Demo3$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/RunnableCusToDec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/RunnableCusToInc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/ShareData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/多线程共享数据/demo2/ShareData3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/定时器Timer/TimerTastCus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/线程局部变量ThreadLocal/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程基础机制/线程局部变量ThreadLocal/ThreadLocalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/MyThread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/MyThread3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/MyThread4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程并发库/demo/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo1/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo1/VolatileTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo1/VolatileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo2/SemaphoreTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo2/SemaphoreTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication2$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo3/ThreadCommunication2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo5/DeadLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo6/DeadLock$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo6/DeadLock$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo6/DeadLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo6/DeadLock2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo6/DeadLock2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo6/DeadLock2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/MySignal$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/MySignal$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/MySignal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/ProducerConsumerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/demo7/Resource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/deno4/qq$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/deno4/qq$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/deno4/qq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/deno4/qq2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/deno4/qq2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/deno4/qq2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/synchronized关键字/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/多线程面试题/synchronized关键字/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/StringUtils帮助类/StringUtilsBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/StringUtils帮助类/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/FastJsonUtilBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/JsonUtilBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/fastjson/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/fastjson/Error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/fastjson/TestDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/fastjson/TestDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/fastjson/TestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/jsonfield的使用/JsonObjectTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/jsonfield的使用/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/jsonfield的使用/PersonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/fastjson的使用/jsonfield的使用/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/AppleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/AppleVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/AppleVO2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/groups/Create.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/groups/Delete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/groups/Update.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/jackson的使用/jacksonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/MyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/SysUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/validator/ValidatorUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/validator/group/AddGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/validator/group/Group.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/其他javabean注解/validator/group/UpdateGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/分页类/PageBean$Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/分页类/PageBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/树结构转换/Menu2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/实用帮助类/树结构转换/TreeUtil3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/容器/HashMapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/容器/map相关/MapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean1/CloneUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean1/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean1/DemoInternal2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean1/test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean2/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean2/DemoInternal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean2/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean3/BeanUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean4/Body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean4/Face.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean4/Head.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/copyBean4/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/序列化/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/序列化/CloneTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/序列化/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/序列化/MyUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/序列化/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/对象克隆/序列化/SerializableTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/halfSearch/HalfSearch1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/halfSearch/HalfSearch2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/string/MaxArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/string/MaxArray1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/string/StringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/string/StringDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/string/StringDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/thread/ThreadExample$Dec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/thread/ThreadExample$Inc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/other/thread/ThreadExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/recursive/DiGui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/sort/InsertSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/sort/MaoPaoSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/sort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/常见的排序算法/sort/SelectSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/开发中遇到的问题及解决/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/拦截器/BusinessClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/拦截器/BusinessInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/拦截器/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/拦截器/DynamicProxyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/拦截器/InterceptorClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/枚举/EntityType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/枚举/TypeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/枚举/WeekDayEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/demo/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/demo/FruitGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/demo/FruitGenerator2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/demo/Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/demo/Generic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型上下边界/Generic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/GenericFruit$Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/GenericFruit$Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/GenericFruit$GenerateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/GenericFruit$Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/GenericFruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/GenericTest$Generic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/GenericTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/StaticGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/泛型/泛型方法/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/类加载和垃圾回收机制/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/类加载和垃圾回收机制/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/类加载和垃圾回收机制/Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/类加载和垃圾回收机制/StaticStuff$Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/类加载和垃圾回收机制/StaticStuff$StaticStuffSon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/类加载和垃圾回收机制/StaticStuff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/NormalHome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/ProxyInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/WeddingCompany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/动态代理/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/动态代理/ProxyDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/代理模式/动态代理/ProxyDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/单例模式/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/单例模式/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/单例模式/Singleton1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/单例模式/Singleton2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/单例模式/SingletonDemo_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/单例模式/SingletonDemo_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/多个工厂方法模式/FactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/多个工厂方法模式/MailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/多个工厂方法模式/SendFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/多个工厂方法模式/Sender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/多个工厂方法模式/SmsSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式/MailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式/Provider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式/SendMailFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式/SendSmsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式/Sender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式/SmsSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/抽象工厂模式/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/简单工厂/FactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/简单工厂/MailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/简单工厂/SendFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/简单工厂/Sender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/简单工厂/SmsSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/静态工厂方法模式/FactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/静态工厂方法模式/MailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/静态工厂方法模式/SendFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/静态工厂方法模式/Sender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/工厂模式/静态工厂方法模式/SmsSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo1/Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo1/MailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo1/Sender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo1/SmsSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo1/TestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo2/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo2/AdminBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo2/Build.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo2/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/demo2/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/注解链式/demo1/Student$StudentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/注解链式/demo1/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/注解链式/demo1/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/注解链式/demo2/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/注解链式/demo2/Student$StudentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/注解链式/demo2/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/注解链式/demo2/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/链式/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/链式/User$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/链式/User$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/链式/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/建造者模式/链式/User2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/策略模式/AbstractCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/策略模式/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/策略模式/ICalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/策略模式/Minus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/策略模式/Plus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/策略模式/StrategyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/装饰模式/Decorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/装饰模式/DecoratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/装饰模式/Source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/装饰模式/Sourceable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/AbstractSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/MySubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/Observer1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/Observer2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/ObserverTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/EventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/EventSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/MyEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/MyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/MySource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo1/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/EventSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/EventSource2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/IEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/IEventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/观察者模式/监听器/demo2/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/过滤器模式/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/过滤器模式/Filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/过滤器模式/FilterContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/过滤器模式/Filter_A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/过滤器模式/Filter_B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/过滤器模式/Filter_C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/过滤器模式/Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/对象的适配器模式/AdapterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/对象的适配器模式/Source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/对象的适配器模式/Targetable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/对象的适配器模式/Wrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/接口的适配器模式/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/接口的适配器模式/AdapterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/接口的适配器模式/Source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/接口的适配器模式/Targetable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/类的适配器模式/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/类的适配器模式/AdapterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/类的适配器模式/Source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/设计模式/适配器模式/类的适配器模式/Targetable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo2/ListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo2/Person2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo2/Student2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo3/LinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo4/MapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo5/ArrayAndLinkedLIst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo5/ArrayAndLinkedLIst2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/demo5/demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/hashmapdemo/HashMapTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/hashmapdemo/HashMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/hashmapdemo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/hashmapdemo/hashmap遍历方式/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/hashmapdemo/hashmap遍历方式/HashMapTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/集合/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/AVLSetAndMap/AVLMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/AVLSetAndMap/AVLSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/AVLSetAndMap/TestMapMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/AVLSetAndMap/TestSetMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/AVLTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/AVLTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/BST/BST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/BST/BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/BST/BSTMap$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/BST/BSTMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/BST/BSTSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/AVLTree/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Array/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Array/Array1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Array/Array2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Array/Array3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Array/ArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Array/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/BinarySearchTree/BST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/BinarySearchTree/BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/BinarySearchTree/BSTTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Hash/HashTable/HashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Hash/HashTable/HashTable1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Hash/HashTable/HashTableTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Hash/HashTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Hash/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Hash/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Heap/MaxHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Heap/MaxHeap1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Heap/MaxHeapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Heap/PriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList2$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LoopQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/QueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/Main3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/RBTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/RBTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/Solution$RBTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/Solution$RBTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/RedBlackTree/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SegmentTree/Merger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SegmentTree/SegmentTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SegmentTree/SegmentTreeTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SegmentTree/SegmentTreeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/map/BSTMap$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/map/BSTMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/map/LinkedListMap$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/map/LinkedListMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/map/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/map/MapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/map/util/FileOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/set/BSTSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/set/LinkedListSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/set/Set.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/set/SetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/set/util/FileOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Stack/ArrayStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Stack/LinkedListStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Stack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Stack/StackTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Trie/TireTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Trie/Trie$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Trie/Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Trie/Trie208$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Trie/Trie208.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/Solution$UF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/Solution$UnionFind6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/UF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/UnionFind1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/UnionFind2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/UnionFind3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/UnionFind4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/UnionFind5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/UnionFind/UnionFind6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/json/fastjson/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/json/fastjson/Error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/json/fastjson/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/json/fastjson/TestDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/json/fastjson/TestDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/json/fastjson/TestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/json/fastjson/jacksonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/json/fastjson/jsonfiled/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/json/fastjson/jsonfiled/PersonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/json/fastjson/jsonfiled/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/json/fastjson/jsonfiled/ProductTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution349$AVLSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution349$AVLTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution349$AVLTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution349$Set.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution349.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution350$AVLMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution350$AVLTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution350$AVLTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution350$Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/AVLTree/Solution350.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArray2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArray3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArray4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArrayComplete$Merger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArrayComplete$SegmentTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArrayComplete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArrayComplete2$Merger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArrayComplete2$SegmentTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/SegmentTree/NumArrayComplete2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution$Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution$Freq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution$MaxHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution$PriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution$Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution1$Freq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution2$Freq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution3$Freq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution3$FreqComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution4$Freq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution5$Freq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/heap/Solution5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/setAndMap/map/Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/setAndMap/set/Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/setAndMap/set/Solution2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/stack/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/trie/MapSum$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/trie/MapSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/trie/WordDictionary$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/trie/WordDictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/datastructure/learning/DatastructureApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/datastructure/learning/datastucture/ArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/datastructure/learning/debug练习/Debug.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,11 +663,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation参数校验" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.40954095" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -147,11 +691,11 @@
       <recent name="com.datastructure.learning.basicTest.helpBean.testExample3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation参数校验" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/jsonfiled" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实用帮助类/jackson的使用" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -279,7 +823,9 @@
       <workItem from="1589936241363" duration="193000" />
       <workItem from="1589936472177" duration="6138000" />
       <workItem from="1589942775849" duration="6356000" />
-      <workItem from="1589954687705" duration="1201000" />
+      <workItem from="1589954687705" duration="2283000" />
+      <workItem from="1590023771385" duration="3243000" />
+      <workItem from="1590543731488" duration="5240000" />
     </task>
     <servers />
   </component>
@@ -335,10 +881,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="199" y="224" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1589955960718" />
-    <state x="318" y="65" width="1110" height="722" key="SettingsEditor" timestamp="1589936441065">
+    <state x="318" y="65" width="1110" height="722" key="SettingsEditor" timestamp="1590026653484">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="318" y="65" width="1110" height="722" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1589936441065" />
+    <state x="318" y="65" width="1110" height="722" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1590026653484" />
     <state x="278" y="214" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589939560302">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -347,6 +893,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="176" y="134" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1589868441012" />
+    <state x="337" y="279" key="run.anything.popup" timestamp="1590547012080">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="337" y="279" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1590547012080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,55 +947,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.40954095" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.40954095" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.40954095" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
