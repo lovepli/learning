@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/queue/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/负载均衡/HashDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/负载均衡/RandomDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/负载均衡/RoundRobin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/负载均衡/WeightRoundRobin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Array/Array1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Array/Array1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Array/Array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Array/Array2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Array/Array3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Array/Array3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Array/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Array/ArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/LoopQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/LoopQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Stack/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Stack/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Stack/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/stack/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/stack/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +97,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.RoundRobin">
     <configuration name="AppleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.实用帮助类.jackson的使用.AppleTest" />
       <module name="learning" />
@@ -145,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.stack.Solution" />
+    <configuration name="RoundRobin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.负载均衡.RoundRobin" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.leetcode.stack.*" />
+          <option name="PATTERN" value="com.datastructure.learning.basicTest.负载均衡.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jacksonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.实用帮助类.jackson的使用.jacksonTest" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.stack.Solution" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.basicTest.实用帮助类.jackson的使用.*" />
+          <option name="PATTERN" value="com.datastructure.learning.leetcode.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RoundRobin" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Array2" />
         <item itemvalue="Application.AppleTest" />
         <item itemvalue="Application.AppleVO" />
-        <item itemvalue="Application.jacksonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +209,7 @@
       <workItem from="1590553845354" duration="774000" />
       <workItem from="1590647253191" duration="12493000" />
       <workItem from="1590714019807" duration="8004000" />
-      <workItem from="1590972784543" duration="18264000" />
+      <workItem from="1590972784543" duration="21113000" />
     </task>
     <servers />
   </component>
@@ -237,22 +229,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="220" y="363" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1589956146998" />
-    <state width="1187" height="66" key="GridCell.Tab.0.bottom" timestamp="1590979063638">
+    <state width="1169" height="313" key="GridCell.Tab.0.bottom" timestamp="1590998567462">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1187" height="66" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590979063638" />
-    <state width="1187" height="66" key="GridCell.Tab.0.center" timestamp="1590979063637">
+    <state width="1169" height="313" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590998567462" />
+    <state width="1169" height="313" key="GridCell.Tab.0.center" timestamp="1590998567459">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1187" height="66" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590979063637" />
-    <state width="1187" height="66" key="GridCell.Tab.0.left" timestamp="1590979063636">
+    <state width="1169" height="313" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590998567459" />
+    <state width="1169" height="313" key="GridCell.Tab.0.left" timestamp="1590998567458">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1187" height="66" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590979063636" />
-    <state width="1187" height="66" key="GridCell.Tab.0.right" timestamp="1590979063638">
+    <state width="1169" height="313" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590998567458" />
+    <state width="1169" height="313" key="GridCell.Tab.0.right" timestamp="1590998567461">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1187" height="66" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590979063638" />
+    <state width="1169" height="313" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590998567461" />
     <state width="970" height="122" key="GridCell.Tab.1.bottom" timestamp="1590683525430">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
