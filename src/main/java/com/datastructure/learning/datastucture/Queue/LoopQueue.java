@@ -1,7 +1,7 @@
 package com.datastructure.learning.datastucture.Queue;
 
 /**
- * 循环队列:了；理解循环队列的设计思想
+ * 循环队列:理解循环队列的设计思想
  * 循环队列的复杂度均摊都为O(1)
  *
  * 循环队列还是在数组上面演进而来
@@ -10,7 +10,7 @@ package com.datastructure.learning.datastucture.Queue;
 public class LoopQueue<E> implements  Queue<E> {
 
     private E [] data;
-    //队首 队尾  队尾元素的位置代表的是数组中下一个新的元素入队的位置 即队列中最后一个元素的后一个位置
+    //队首和队尾元素的位置   队尾元素的位置代表的是数组中下一个新的元素入队的位置 即队列中最后一个元素的后一个位置
     private int front,tail;
     //实际数组元素的多少
     private int size;  //不增加size变量，实现循环队列
@@ -32,11 +32,11 @@ public class LoopQueue<E> implements  Queue<E> {
 
         return data.length-1;  //data.length-1 表示减去一个浪费的不占元素的空间 此时data.length的实际长度又变为了capacity
     }
-/**
- * @auth0r: james
- * @date: 2019-05-23 09:16
- * @description: 队列为空的条件：front == tail
-*/
+
+    /**
+     *  队列为空的条件：front == tail
+     * @return
+     */
     @Override
     public boolean isEmpty(){
         return front == tail;
@@ -55,7 +55,7 @@ public class LoopQueue<E> implements  Queue<E> {
     public void enqueue(E e) {
         //队满 扩容
         if ((tail + 1) % data.length == front) {
-            resize(getCapacity()*2);  //这了不是用data.length*2 因为浪费了一个空间
+            resize(getCapacity()*2);  //这里不是用data.length*2 因为浪费了一个空间
         }
         data[tail]=e;
         tail = (tail + 1)%data.length;  //循环

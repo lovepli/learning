@@ -24,7 +24,10 @@ public interface Stack<E> {
     //查看栈是否为空isEmpty
     boolean isEmpty();
 
-    //产看栈的一共有多少个元素
+    /**
+     * 查看栈的一共有多少个元素
+     * @return
+     */
     int getSize();
 
 

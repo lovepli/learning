@@ -3,11 +3,6 @@ package com.datastructure.learning.datastucture.Queue;
 import com.datastructure.learning.datastucture.Array.Array;
 
 /**
- * @auth0r: james
- * @date: 2019-05-23 09:41
- * @param:  * @param null
- *
- * @return:
  * @description: 数组队列
 */
 public class ArrayQueue<E> implements Queue<E> {
@@ -57,6 +52,7 @@ public class ArrayQueue<E> implements Queue<E> {
         StringBuilder res = new StringBuilder();
         res.append("Queue: ");
         res.append("front [");
+        //遍历将数组中的元素添加到队列中去
         for (int i = 0; i < array.getSize(); i++) {
             res.append(array.get(i));
             if (i != array.getSize() - 1) {

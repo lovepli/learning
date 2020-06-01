@@ -3,13 +3,13 @@ package com.datastructure.learning.datastucture.LinkedList;
 /**
  * @author: lipan
  * @date: 2019-05-23
- * @description:链表
+ * @description: 链表
  */
 public class LinkedList2<E> {
      /** 私有内部类*/
-     private class Node{
-         public E e;
-         public Node next; //public
+     private class Node{//节点
+         public E e;  //元素
+         public Node next; //指向下一个节点 public
 
          public Node(E e,Node next){
              this.e=e;
@@ -32,12 +32,16 @@ public class LinkedList2<E> {
 
 
     private Node head;  //私有的 链表头 不能从外部进行改变，访问权限设置
-    private int size;   //下一个待添加的元素
+    private int size;   //记录链表中有多少元素
 
+    //无参构造器  为什么没有有参构造函数？ 链表不是一个初始化固定容量的容器，他是一个以此加一容量动态增加的对象，所以没有初始容量capacity这个值
+    //初始链表长度为0
     public LinkedList2(){
         head = null;
         size = 0;
     }
+
+    //可以根据需要写一个传入 数组作为参数，返回链表的有参构造函数
 
     /**
      *获取链表中的元素个数
@@ -51,21 +55,30 @@ public class LinkedList2<E> {
         return size == 0;
     }
 
+  /**
+   * 在链表头添加新的元素e
+   * @param e
+   */
+  public void addFirst(E e) {
+      //1、创建新的节点node 里面传入的元素e
+    //        Node node = new Node(e);
+      //2、node节点的引用指向头节点head
+    //        node.next=head;
+      //3、head更新一下，他等于新的node节点
+    //        head = node;
+
+    // 一句话总结三句话
+    head = new Node(e, head);
+    size++;
+}
+
     /**
-     * 在链表头添加新的元素e
+     * 在链表的index(0-based)位置添加新的元素e
+     * 索引index在链表中不是一个常用的操作，练习用 对于链表来说是没有索引这个概念的，这里只是借用这个来理解链表
+     * 在链表中间添加元素的关键：找到要添加的节点的前一个节点，index位置将链表分割成两部分了
+     * @param index
+     * @param e
      */
-    public void addFirst(E e) {
-//        Node node = new Node(e);
-//        node.next=head;
-//        head = node;
-
-        //一句话总结三句话
-        head = new Node(e,head);
-        size ++;
-    }
-
-    //在链表的index(0-based)位置添加新的元素e
-    //索引index在链表中不是一个常用的操作，练习用
     public void add(int index,E e) {
         if (index < 0 || index > size) {
             throw new IllegalArgumentException("Add failed,Illegal index");
@@ -73,23 +86,54 @@ public class LinkedList2<E> {
         if (index == 0) {
             addFirst(e);
         }else {
+            //设置一个Node 叫做prev 他从head开始
             Node prev=head;
             for (int i = 0; i < index - 1; i++){  //从链表头一直往下一个，找到待插入的index位置的前一个位置 index-1的位置
+                //把当前prev存的这个节点的下一个节点放进prev这个变量中，我们的prev这个变量就会在我们的链表中一直向前移动，直到移动到index-1这个位置
                 prev=prev.next;
             }
-//                Node node = new Node(e);
-//                node.next=prev.next;
-//                prev.next=node;
+//                Node node = new Node(e);  //新new一个Node 他传入的元素为e
+//                node.next=prev.next;  //新new出来的节点他的next指向prev的next
+//                prev.next=node;  //prev的next等于我们新建的node
 
+            // 一句话总结三句话
                 prev.next = new Node(e, prev.next);
                 size ++;  //元素数量加一
         }
     }
 
-    //在链表的末尾添加新的元素 直接在size的位置添加元素
+    /**
+     * 在链表的末尾添加新的元素 直接在size的位置添加元素
+     * @param e
+     */
     public void addLast(E e) {
         add(size,e);
     }
+
+    /**
+     * 线性数据结构
+     *
+     * 动态数组，栈，队列的共通特性：底层依托静态数组，靠resize解决固定容量问题
+     *
+     * 而链表是一种真正的动态数据结构：
+     * 是最简单的动态数据结构
+     * 链表的更深入的理解引用(或者指针)
+     * 更深入的理解递归
+     *
+     */
+
+    /**
+     * 链表：
+     * 数据存储在"节点"(Node)中  ,可以把链表看作是火车，每一个节点就是一节车厢，在车厢中存储真正的数据，
+     * 而车厢和车箱之间还要进行连接，以使得我们的数据是整合在一起的，用户可以在所有的数据上进行查询等的操作，那么数据和数据之间的连接就是由这个next来完成的
+     * class Node{
+     *     E e;
+     *     Node next; //next引用，指向下一个节点
+     * }
+     * 链表的优点：真正的动态，不需要处理固定容量的问题
+     * 缺点：丧失了随机访问的能力
+     * （数组的每一个元素在内存的分布式连续的，所以可以通过元素的索引快速的查找到，而链表的每个节点在内存里分布都是连续的，随机分布的，所以我们必须通过引用将一个一个节点连接起来）
+     */
 
 
 
