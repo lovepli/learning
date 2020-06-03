@@ -3,19 +3,35 @@ package com.datastructure.learning.datastucture.LinkedList;
 /**
  * @author: lipan
  * @date: 2019-05-23
- * @description: 链表
+ * @description: 链表 链表是一种数据结构，和数组同级。 比如，Java中我们使用的ArrayList，其实现原理是数组。
+ *     而LinkedList的实现原理就是链表了。链表在进行循环遍历时效率不高，但是插入和删除时优势明显。
+ *
+ *     单向链表是一种线性表，实际上是由节点（Node）组成的，一个链表拥有不定数量的节点。其数据在内存中存储是不连续的，
+ *     它存储的数据分散在内存中，每个结点只能也只有它能知道下一个结点的存储位置。由N各节点（Node）组成单向链表，
+ *     每一个Node记录本Node的数据及下一个Node。向外暴露的只有一个头节点（Head），我们对链表的所有操作，
+ *     都是直接或者间接地通过其头节点来进行的。
+ *
+ *     单链表最左边的节点即为头结点（Head），但是添加节点的顺序是从右向左的，添加的节点会被作为新节点。最先添加的节点对下一节点的引用可以为空。
+ *     引用是引用下一个节点(在内存中的存储地址)而非下一个节点的对象。因为有着不断的引用，所以头节点就可以操作所有节点了。
+ *
+ *     下图描述了单向链表存储情况。存储是分散的，每一个节点只要记录下一节点(在内存中的存储地址)，就把所有数据串了起来，形成了一个单向链表。
+ *     参考：https://blog.csdn.net/jianyuerensheng/article/details/51200274
  */
 public class LinkedList2<E> {
      /** 私有内部类*/
      private class Node{//节点
-         public E e;  //元素
-         public Node next; //指向下一个节点 public
+         public E e;  //元素,即节点存储的值
+         public Node next; //节点的引用，指向下一个节点 public
 
          public Node(E e,Node next){
              this.e=e;
              this.next=next;
          }
 
+         /**
+          * 传入元素e，没有节点的引用
+          * @param e
+          */
          public Node(E e){ //用户只传递了一个元素
              this(e,null);
          }
@@ -31,13 +47,13 @@ public class LinkedList2<E> {
      }
 
 
-    private Node head;  //私有的 链表头 不能从外部进行改变，访问权限设置
+    private Node head;  //链表头节点 私有的 不能从外部进行改变，访问权限设置
     private int size;   //记录链表中有多少元素
 
-    //无参构造器  为什么没有有参构造函数？ 链表不是一个初始化固定容量的容器，他是一个以此加一容量动态增加的对象，所以没有初始容量capacity这个值
+    //无参构造器  为什么没有有参构造函数？ 链表不是一个初始化固定容量的容器，他是一个依次加一容量动态增加的对象，所以没有初始容量capacity这个值
     //初始链表长度为0
     public LinkedList2(){
-        head = null;
+        head = null;  //初始化的时候是空的，没有节点
         size = 0;
     }
 
@@ -57,6 +73,7 @@ public class LinkedList2<E> {
 
   /**
    * 在链表头添加新的元素e
+   * 添加节点的顺序是从右向左的，添加的节点会被作为新节点
    * @param e
    */
   public void addFirst(E e) {
@@ -87,15 +104,15 @@ public class LinkedList2<E> {
             addFirst(e);
         }else {
             //设置一个Node 叫做prev 他从head开始
-            Node prev=head;
+            Node prev=head;    //TODO 注意理解 prev和prev.next的区别，prev是当前节点的内存地址，prev.next的值记录的是下一个节点在内存中的地址
             for (int i = 0; i < index - 1; i++){  //从链表头一直往下一个，找到待插入的index位置的前一个位置 index-1的位置
                 //把当前prev存的这个节点的下一个节点放进prev这个变量中，我们的prev这个变量就会在我们的链表中一直向前移动，直到移动到index-1这个位置
-                prev=prev.next;
+                prev=prev.next;  //prev这个指针一直在向前推进
             }
-//                Node node = new Node(e);  //新new一个Node 他传入的元素为e
-//                node.next=prev.next;  //新new出来的节点他的next指向prev的next
-//                prev.next=node;  //prev的next等于我们新建的node
-
+//                Node node = new Node(e);  //新new一个Node 他传入的元素为e  此时这个新的节点他的next是为null的
+//                node.next=prev.next;  //新new出来的节点他的next指向prev的next    即index位置的节点的内存地址赋值给node的next存储起来
+//                prev.next=node;  //prev的next等于我们新建的node  prev的指针next(next的值等于下一个节点在内存中的地址)指向了node的地址(Node对象在内存中的地址)
+                                   //node的内存地址赋值给node的前一个节点prev的next存储起来
             // 一句话总结三句话
                 prev.next = new Node(e, prev.next);
                 size ++;  //元素数量加一

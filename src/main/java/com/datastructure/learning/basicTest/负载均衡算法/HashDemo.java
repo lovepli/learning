@@ -1,4 +1,4 @@
-package com.datastructure.learning.basicTest.负载均衡;
+package com.datastructure.learning.basicTest.负载均衡算法;
 
 import java.util.ArrayList;
 import java.util.List;
