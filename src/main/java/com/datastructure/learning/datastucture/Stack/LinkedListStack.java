@@ -1,6 +1,6 @@
 package com.datastructure.learning.datastucture.Stack;
 
-import com.datastructure.learning.datastucture.LinkedList.LinkedList;
+import com.datastructure.learning.datastucture.LinkedList.LinkedList2;
 
 /**
  * @author: lipan
@@ -9,10 +9,10 @@ import com.datastructure.learning.datastucture.LinkedList.LinkedList;
  */
 public class LinkedListStack<E> implements Stack<E> {
 
-    private LinkedList<E> list;
+    private LinkedList2<E> list;
 
     public LinkedListStack() {
-        list = new LinkedList<>();
+        list = new LinkedList2<>();
     }
 
     @Override

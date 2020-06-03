@@ -1,6 +1,6 @@
 package com.datastructure.learning.datastucture.SetAndMap.set;
 
-import com.datastructure.learning.datastucture.LinkedList.LinkedList; //引入自己封装的LinkedList
+import com.datastructure.learning.datastucture.LinkedList.LinkedList2; //引入自己封装的LinkedList
 
 /**
  * @author: lipan
@@ -9,10 +9,10 @@ import com.datastructure.learning.datastucture.LinkedList.LinkedList; //引入�
  */
 public class LinkedListSet<E> implements  Set<E> {
 
-    private LinkedList<E> list;
+    private LinkedList2<E> list;
 
     public LinkedListSet() {
-        list =new LinkedList<>();
+        list =new LinkedList2<>();
     }
 
     @Override

@@ -2,62 +2,54 @@ package com.datastructure.learning.datastucture.LinkedList;
 
 /**
  * @author: lipan
- * @date: 2019-05-23
- * @description: 链表 链表是一种数据结构，和数组同级。 比如，Java中我们使用的ArrayList，其实现原理是数组。
- *     而LinkedList的实现原理就是链表了。链表在进行循环遍历时效率不高，但是插入和删除时优势明显。
- *
- *     单向链表是一种线性表，实际上是由节点（Node）组成的，一个链表拥有不定数量的节点。其数据在内存中存储是不连续的，
- *     它存储的数据分散在内存中，每个结点只能也只有它能知道下一个结点的存储位置。由N各节点（Node）组成单向链表，
- *     每一个Node记录本Node的数据及下一个Node。向外暴露的只有一个头节点（Head），我们对链表的所有操作，
- *     都是直接或者间接地通过其头节点来进行的。
- *
- *     单链表最左边的节点即为头结点（Head），但是添加节点的顺序是从右向左的，添加的节点会被作为新节点。最先添加的节点对下一节点的引用可以为空。
- *     引用是引用下一个节点(在内存中的存储地址)而非下一个节点的对象。因为有着不断的引用，所以头节点就可以操作所有节点了。
- *
- *     下图描述了单向链表存储情况。存储是分散的，每一个节点只要记录下一节点(在内存中的存储地址)，就把所有数据串了起来，形成了一个单向链表。
- *     参考：https://blog.csdn.net/jianyuerensheng/article/details/51200274
+ * @date: 2019-05-26
+ * @description:  链表添加虚拟头节点dummyhead 取代head
+ *链表不能直接通过index查找find()到某个节点，必须先找到前一个节点，然后通过前一个节点来获取到目标节点元素
+ * 注意理解什么时候是通过虚拟头节点开始，什么时候是从index为0的节点开始！！！！
  */
 public class LinkedList2<E> {
-     /** 私有内部类*/
-     private class Node{//节点
-         public E e;  //元素,即节点存储的值
-         public Node next; //节点的引用，指向下一个节点 public
+    /** 私有内部类*/
+    private class Node{
+        public E e;
+        public Node next; //public
 
-         public Node(E e,Node next){
-             this.e=e;
-             this.next=next;
-         }
+        public Node(E e,Node next){
+            this.e=e;
+            this.next=next;
+        }
 
-         /**
-          * 传入元素e，没有节点的引用
-          * @param e
-          */
-         public Node(E e){ //用户只传递了一个元素
-             this(e,null);
-         }
+        public Node(E e){ //用户只传递了一个元素
+            this(e,null);
+        }
 
-         public Node(){
-             this(null,null);//用户什么都不传递
-         }
+        public Node(){
+            this(null,null);//用户什么都不传递
+        }
 
-         @Override
-         public String toString(){
-             return e.toString();
-         }
-     }
+//        @Override
+//        public String toString(){
+//            return e.toString();
+//        }
 
 
-    private Node head;  //链表头节点 私有的 不能从外部进行改变，访问权限设置
-    private int size;   //记录链表中有多少元素
-
-    //无参构造器  为什么没有有参构造函数？ 链表不是一个初始化固定容量的容器，他是一个依次加一容量动态增加的对象，所以没有初始容量capacity这个值
-    //初始链表长度为0
-    public LinkedList2(){
-        head = null;  //初始化的时候是空的，没有节点
-        size = 0;
+        @Override
+        public String toString() {
+            return "Node{" +
+                    "e=" + e +
+                    ", next=" + next +
+                    '}';
+        }
     }
 
-    //可以根据需要写一个传入 数组作为参数，返回链表的有参构造函数
+
+    private Node dummyHead;  //私有的 链表头 不能从外部进行改变，访问权限设置
+    private int size;   //下一个待添加的元素
+
+    public LinkedList2(){
+        dummyHead = new Node(null,null);  //初始化的时候不为空，有一个节点，此时对于一个空的链表来说，他是存在一个节点的，这个节点就是那个唯一的虚拟节点
+        //虚拟头节点 不存储任意的元素，空节点，假的，用户不知道我们有这个假的节点，现在我们的链表都有前一个节点
+        size = 0;
+    }
 
     /**
      *获取链表中的元素个数
@@ -71,87 +63,183 @@ public class LinkedList2<E> {
         return size == 0;
     }
 
-  /**
-   * 在链表头添加新的元素e
-   * 添加节点的顺序是从右向左的，添加的节点会被作为新节点
-   * @param e
-   */
-  public void addFirst(E e) {
-      //1、创建新的节点node 里面传入的元素e
-    //        Node node = new Node(e);
-      //2、node节点的引用指向头节点head
-    //        node.next=head;
-      //3、head更新一下，他等于新的node节点
-    //        head = node;
-
-    // 一句话总结三句话
-    head = new Node(e, head);
-    size++;
-}
-
     /**
      * 在链表的index(0-based)位置添加新的元素e
-     * 索引index在链表中不是一个常用的操作，练习用 对于链表来说是没有索引这个概念的，这里只是借用这个来理解链表
-     * 在链表中间添加元素的关键：找到要添加的节点的前一个节点，index位置将链表分割成两部分了
-     * @param index
-     * @param e
+     * 此方法在链表中不是一个常用的操作，练习用
      */
     public void add(int index,E e) {
         if (index < 0 || index > size) {
             throw new IllegalArgumentException("Add failed,Illegal index");
         }
-        if (index == 0) {
-            addFirst(e);
-        }else {
-            //设置一个Node 叫做prev 他从head开始
-            Node prev=head;    //TODO 注意理解 prev和prev.next的区别，prev是当前节点的内存地址，prev.next的值记录的是下一个节点在内存中的地址
-            for (int i = 0; i < index - 1; i++){  //从链表头一直往下一个，找到待插入的index位置的前一个位置 index-1的位置
-                //把当前prev存的这个节点的下一个节点放进prev这个变量中，我们的prev这个变量就会在我们的链表中一直向前移动，直到移动到index-1这个位置
-                prev=prev.next;  //prev这个指针一直在向前推进
+            Node prev=dummyHead;  //前一个
+             // dummyHead是0这个索引位置的元素他之前的那个节点，现在我们要找到的是index索引位置的前那个节点
+             //TODO 我们是从dummyHead这个节点位置开始遍历的
+            for (int i = 0; i < index; i++){  //找到你要遍历的元素的前一个节点 理解index  而不是index-1 !!!
+                prev=prev.next;
             }
-//                Node node = new Node(e);  //新new一个Node 他传入的元素为e  此时这个新的节点他的next是为null的
-//                node.next=prev.next;  //新new出来的节点他的next指向prev的next    即index位置的节点的内存地址赋值给node的next存储起来
-//                prev.next=node;  //prev的next等于我们新建的node  prev的指针next(next的值等于下一个节点在内存中的地址)指向了node的地址(Node对象在内存中的地址)
-                                   //node的内存地址赋值给node的前一个节点prev的next存储起来
-            // 一句话总结三句话
-                prev.next = new Node(e, prev.next);
-                size ++;  //元素数量加一
-        }
+         // System.out.println("#########"+prev.next);  //添加头节点的时候，这里的输出的prev.next值为null ，即dummyHead的next初始值为null
+            prev.next = new Node(e, prev.next);
+         // System.out.println("+++++++++"+prev.next);  //添加头节点的时候，这里的prev.next的值是新节点在内存中的地址
+            size ++;  //元素数量加一
     }
 
     /**
-     * 在链表的末尾添加新的元素 直接在size的位置添加元素
-     * @param e
+     * 在链表头添加新的元素e
      */
+    public void addFirst(E e) {
+        add(0,e);
+    }
+
+    //在链表的末尾添加新的元素 直接在size的位置添加元素
     public void addLast(E e) {
         add(size,e);
     }
 
     /**
-     * 线性数据结构
      *
-     * 动态数组，栈，队列的共通特性：底层依托静态数组，靠resize解决固定容量问题
-     *
-     * 而链表是一种真正的动态数据结构：
-     * 是最简单的动态数据结构
-     * 链表的更深入的理解引用(或者指针)
-     * 更深入的理解递归
-     *
+     * 获得链表的index(0-based)位置的元素e
+     * 此方法在链表中不是一个常用的操作，练习用
      */
+    public E get(int index) {
+        if (index < 0 || index >= size) {
+            throw new IllegalArgumentException("Get failed.Illegal index");
+        }
+            Node cur=dummyHead.next; //当前
+        //TODO  从dummyHead的下一个节点开始，也就是从index索引为0的位置开始遍历  注意与上面的 Node prev=dummyHead;不同，需要理解
+            for (int i = 0; i < index; i++) {
+                cur =cur.next;
+                //遍历获得到index位置的节点，等号左边的cur是index前一个节点
+                //cur.next得到的是cur的下一个节点也就是index节点的内存地址，将index内存地址赋值给cur，即cur节点变为了index节点
+            }
+            return cur.e;   //index节点的元素
+    }
 
     /**
-     * 链表：
-     * 数据存储在"节点"(Node)中  ,可以把链表看作是火车，每一个节点就是一节车厢，在车厢中存储真正的数据，
-     * 而车厢和车箱之间还要进行连接，以使得我们的数据是整合在一起的，用户可以在所有的数据上进行查询等的操作，那么数据和数据之间的连接就是由这个next来完成的
-     * class Node{
-     *     E e;
-     *     Node next; //next引用，指向下一个节点
-     * }
-     * 链表的优点：真正的动态，不需要处理固定容量的问题
-     * 缺点：丧失了随机访问的能力
-     * （数组的每一个元素在内存的分布式连续的，所以可以通过元素的索引快速的查找到，而链表的每个节点在内存里分布都是连续的，随机分布的，所以我们必须通过引用将一个一个节点连接起来）
+     * 获得链表的第一个元素
      */
+    public E getFirst() {
+        return get(0);
+    }
+
+    /**
+     * 获得链表的最后一个元素  注意这里size-1
+     */
+    public E getLast() {
+        return get(size-1);
+    }
+
+    /**
+     * 修改index位置的元素
+     */
+    public void set(int index,E e) {
+        if (index < 0 || index >= size) {
+            throw new IllegalArgumentException("Set failed.Illegal index");
+        }
+        Node cur=dummyHead.next;  //当前节点cur为index为0的节点
+        for (int i = 0; i < index; i++) {
+            cur =cur.next;  //指向位置改变了
+        }
+        cur.e=e;  //修改index节点的元素值
+    }
+
+    /**
+     * 查找元素中是否有元素e
+     */
+    public  boolean contains(E e) {
+        Node cur =dummyHead.next; //从index为0的位置开始
+        while (cur != null) {    //TODO 注意这里的写法！！ 末尾的节点的引用一般为null，此处意思是当引用不为空，一直循环每个节点进行比较
+            if (cur.e.equals(e)) {  //泛型比较，使用equals
+                return true;
+            }
+            cur = cur.next;
+        }
+        return false;
+    }
+
+    /**
+     *
+     * 在链表中删除index(0-based)位置的元素,并返回删除的元素
+     */
+    public  E remove(int index){
+        if (index < 0 || index >= size) {
+            throw new IllegalArgumentException("Remove failed.Illegal index");
+        }
+        Node prev =dummyHead; //从虚拟头节点开始
+        //找到待删除的索引之前的一个节点
+        for (int i = 0; i < index; i++) {
+            prev =prev.next;
+        }
+        Node retNode =prev.next;  //retNode 返回的节点
+        prev.next=retNode.next;
+        retNode.next=null;  //垃圾回收 index这个要删除的节点，彻底和链表脱离
+        size--;
+        return retNode.e;
+    }
+
+    /**
+     * 删除链表中的第一个元素
+     */
+    public E removeFirst() {
+        return remove(0);
+    }
+
+    /**
+     * 删除链表中的最后一个元素
+     */
+    public E removeLast() {
+        return remove(size - 1);
+    }
+
+    /**
+     * 从链表中删除元素e
+     */
+    public void removeElement(E e) {
+        Node prev =dummyHead;  //从虚拟头节点开始
+        while (prev.next != null) {
+            if (prev.next.e.equals(e)) {
+                break;  //找到元素e,跳出循环
+            }
+            prev = prev.next; //否则继续找下一个进行比较
+        }
+
+        if (prev.next != null) {
+            Node delNode =prev.next;  //要删除的节点 delNode
+            prev.next = delNode.next; //改变指针指向
+            delNode.next =null;  //删除的节点脱离链表，进行垃圾回收
+            size--;
+        }
+    }
 
 
+    /**
+     * 遍历链表
+     */
+    @Override
+    public String toString() {
 
+        StringBuilder res = new StringBuilder();
+
+           Node cur =dummyHead.next; //从index为0的位置开始
+           while (cur != null) { //节点不为空
+            res.append(cur + "->");  //当前节点 -> 下一个节点 进行拼接
+            cur =cur.next;
+        }
+
+        //while也可以用for循环
+//        for(Node cur =dummyHead.next; cur != null; cur =cur.next){
+//            res.append(cur + "->");
+//            res.append("NULL");
+//        }
+        res.append("NULL"); //最后一个节点的指针指向的是null
+        return res.toString();
+    }
+
+  /** 分析时间复杂度 增删改查的时间复杂度都是O(n) */
+  public static void main(String[] args) {
+    //
+        LinkedList2<String> linkedList=new LinkedList2<>();
+        linkedList.add(0,"666");
+     //  System.out.println(linkedList.get(0));
+  }
 }
+
