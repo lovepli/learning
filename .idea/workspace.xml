@@ -2,35 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedListR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/stack/LinkedListSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/volatile关键字/TestVolatile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/LinkedListQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Stack/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Stack/LinkedListStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/linkedList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/LinkedList/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/linkedList/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/LinkedList/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/linkedList/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/LinkedList/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/linkedList/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/LinkedList/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/linkedList/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/LinkedList/Solution4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/linkedList/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/LinkedList/Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/stack/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/stack/ArrayStackSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList1$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList1$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList2$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList2$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Stack/LinkedListStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Stack/LinkedListStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Sum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/stack/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/exampledemo/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/exampledemo/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/exampledemo/RspDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/exampledemo/RspDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/exampledemo/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/exampledemo/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/exampledemo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/exampledemo/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/annotation/IdentityCardNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/annotation/IdentityCardNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/exception/BizException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/exception/BizException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/exception/DuplicateKeyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/exception/DuplicateKeyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/group/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/group/Create.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/group/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/group/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/response/RspDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/response/RspDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/utils/IdCardValidatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/utils/IdCardValidatorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/valid/IdentityCardNumberValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/valid/IdentityCardNumberValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedListR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedListR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedListR$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedListR$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedListR.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedListR.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +74,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.40954095" />
@@ -238,7 +232,7 @@
       <workItem from="1591059737298" duration="33000" />
       <workItem from="1591059806547" duration="6464000" />
       <workItem from="1591145849766" duration="20415000" />
-      <workItem from="1591231934708" duration="1045000" />
+      <workItem from="1591231934708" duration="1499000" />
     </task>
     <servers />
   </component>

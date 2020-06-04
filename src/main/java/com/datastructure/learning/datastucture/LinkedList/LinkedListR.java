@@ -1,9 +1,10 @@
 package com.datastructure.learning.datastucture.LinkedList;
 
 import javafx.util.Pair;
-
-/// 递归实现的LinkedList
-/// 类名称中LinkedListR里的R，是Recursion的意思，表示递归实现：）
+/**
+ *  单链表单递归实现
+ *  类名称中LinkedListR里的R，是Recursion的意思，表示递归实现：）
+ */
 public class LinkedListR<E> {
 
     private class Node{
