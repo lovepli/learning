@@ -3,7 +3,8 @@ package com.datastructure.learning.datastucture.Queue;
 /**
  * @author: lipan
  * @date: 2019-05-27
- * @description:  在连标头节点head处出队 在链表尾节点tail处入队
+ * @description:  带有尾指针的链表：使用链表实现队列
+ * 在链表头节点head处出队 在链表尾节点tail处入队
  */
 public class LinkedListQueue<E> implements Queue<E> {
     private class Node{
@@ -56,7 +57,7 @@ public class LinkedListQueue<E> implements Queue<E> {
     public void enqueue(E e) {
         if (tail == null) {//说明head ==tial == NULL 此时并不是空的size == 0？？此时size 应该等于1？说明链表只有一个空元素
             tail = new Node(e);
-            head = tail;
+            head = tail;  //头节点的指针指向新的节点
         }else{  //否则tail.next ==null;
             tail.next = new Node(e);
             tail = tail.next;

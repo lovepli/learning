@@ -2,20 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedListR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/stack/LinkedListSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/SetAndMap/set/LinkedListSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/SetAndMap/set/LinkedListSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedList2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/LinkedListQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Stack/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Stack/LinkedListStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/linkedList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/LinkedList/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/linkedList/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/LinkedList/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/linkedList/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/LinkedList/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/linkedList/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/LinkedList/Solution3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/linkedList/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/LinkedList/Solution4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/linkedList/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/LinkedList/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/stack/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/stack/ArrayStackSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList1$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList1$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList2$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList2$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedList2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/set/LinkedListSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/SetAndMap/set/LinkedListSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Stack/LinkedListStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Stack/LinkedListStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Solution4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/linkedList/Sum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/leetcode/stack/Solution.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,13 +121,13 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.LinkListTest">
-    <configuration name="Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.datastucture.Array.Array2" />
+  <component name="RunManager" selected="Application.LinkedListSolution">
+    <configuration name="ArrayStackSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.stack.ArrayStackSolution" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.datastucture.Array.*" />
+          <option name="PATTERN" value="com.datastructure.learning.leetcode.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoundRobin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.负载均衡算法.RoundRobin" />
+    <configuration name="LinkedListSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.stack.LinkedListSolution" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.basicTest.负载均衡算法.*" />
+          <option name="PATTERN" value="com.datastructure.learning.leetcode.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.stack.Solution" />
+    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.datastucture.Stack.LinkedListStack" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.leetcode.stack.*" />
+          <option name="PATTERN" value="com.datastructure.learning.datastucture.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListSolution" />
+        <item itemvalue="Application.ArrayStackSolution" />
+        <item itemvalue="Application.LinkedListStack" />
         <item itemvalue="Application.LinkListTest" />
         <item itemvalue="Application.LinkedList2" />
-        <item itemvalue="Application.RoundRobin" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Array2" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +237,8 @@
       <workItem from="1591020498560" duration="1718000" />
       <workItem from="1591059737298" duration="33000" />
       <workItem from="1591059806547" duration="6464000" />
-      <workItem from="1591145849766" duration="3805000" />
+      <workItem from="1591145849766" duration="20415000" />
+      <workItem from="1591231934708" duration="1045000" />
     </task>
     <servers />
   </component>
@@ -230,10 +246,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="657" y="393" key="#Notifications" timestamp="1589426776512">
+    <state x="657" y="393" key="#Notifications" timestamp="1591232361837">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="657" y="393" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1589426776512" />
+    <state x="657" y="393" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1591232361837" />
     <state x="604" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1591065382701">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -246,38 +262,38 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="471" y="23" width="534" height="877" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877@0.23.1440.877" timestamp="1591150636904" />
-    <state width="1353" height="91" key="GridCell.Tab.0.bottom" timestamp="1591068423493">
+    <state width="1353" height="135" key="GridCell.Tab.0.bottom" timestamp="1591177566548">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1353" height="91" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591068423493" />
-    <state width="1353" height="91" key="GridCell.Tab.0.center" timestamp="1591068423492">
+    <state width="1353" height="135" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591177566548" />
+    <state width="1353" height="135" key="GridCell.Tab.0.center" timestamp="1591177566548">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1353" height="91" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591068423492" />
-    <state width="1353" height="91" key="GridCell.Tab.0.left" timestamp="1591068423492">
+    <state width="1353" height="135" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591177566548" />
+    <state width="1353" height="135" key="GridCell.Tab.0.left" timestamp="1591177566547">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1353" height="91" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591068423492" />
-    <state width="1353" height="91" key="GridCell.Tab.0.right" timestamp="1591068423492">
+    <state width="1353" height="135" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591177566547" />
+    <state width="1353" height="135" key="GridCell.Tab.0.right" timestamp="1591177566548">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1353" height="91" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591068423492" />
-    <state width="970" height="122" key="GridCell.Tab.1.bottom" timestamp="1590683525430">
+    <state width="1353" height="135" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591177566548" />
+    <state width="1353" height="135" key="GridCell.Tab.1.bottom" timestamp="1591177566549">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="970" height="122" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590683525430" />
-    <state width="970" height="122" key="GridCell.Tab.1.center" timestamp="1590683525429">
+    <state width="1353" height="135" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591177566549" />
+    <state width="1353" height="135" key="GridCell.Tab.1.center" timestamp="1591177566549">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="970" height="122" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1590683525429" />
-    <state width="970" height="122" key="GridCell.Tab.1.left" timestamp="1590683525429">
+    <state width="1353" height="135" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1591177566549" />
+    <state width="1353" height="135" key="GridCell.Tab.1.left" timestamp="1591177566549">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="970" height="122" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1590683525429" />
-    <state width="970" height="122" key="GridCell.Tab.1.right" timestamp="1590683525430">
+    <state width="1353" height="135" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1591177566549" />
+    <state width="1353" height="135" key="GridCell.Tab.1.right" timestamp="1591177566549">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="970" height="122" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1590683525430" />
+    <state width="1353" height="135" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1591177566549" />
     <state x="199" y="224" key="Maven.ArtifactSearchDialog" timestamp="1589955960718">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -294,10 +310,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="91" y="65" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1590647462688" />
-    <state x="337" y="279" key="run.anything.popup" timestamp="1590547012080">
+    <state x="337" y="279" key="run.anything.popup" timestamp="1591175010152">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="337" y="279" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1590547012080" />
+    <state x="337" y="279" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1591175010152" />
     <state x="398" y="224" width="670" height="676" key="search.everywhere.popup" timestamp="1590977625843">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

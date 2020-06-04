@@ -1,4 +1,4 @@
-package com.datastructure.learning.leetcode.linkedList;
+package com.datastructure.learning.leetcode.LinkedList;
 
 /**
  * @author: lipan
@@ -7,10 +7,10 @@ package com.datastructure.learning.leetcode.linkedList;
  */
 public class Solution2 {
     public ListNode removeElements(ListNode head, int val) {
-        ListNode dummyHead = new ListNode(-1); //虚拟头节点随便给一个值
-        dummyHead.next = head;
+        ListNode dummyHead = new ListNode(-1); //创建一个虚拟头节点，随便给一个值
+        dummyHead.next = head;  //将虚拟头节点指向head节点
 
-        ListNode prev =dummyHead;
+        ListNode prev =dummyHead; //从虚拟头节点开始
         while (prev.next != null) {
             if (prev.next.val == val) {
                 prev.next = prev.next.next;
@@ -18,7 +18,7 @@ public class Solution2 {
                 prev = prev.next;
             }
         }
-        return dummyHead.next;//这一句什么意思？
+        return dummyHead.next;//返回删除指定元素之后的链表 这里因为有一个头节点，所有最后返回的节点不包含头节点
     }
 
     //测试

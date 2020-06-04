@@ -1,4 +1,4 @@
-package com.datastructure.learning.leetcode.linkedList;
+package com.datastructure.learning.leetcode.LinkedList;
 
 /**
  * @author: lipan

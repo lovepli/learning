@@ -11,7 +11,7 @@ public class LinkListTest {
 
         LinkedList<Integer> linkedList =new LinkedList<>();
         for (int i = 0; i < 5; i++) {
-            linkedList.addFirst(i);
+            linkedList.addFirst(i);  //一直向链表的头部添加节点
             System.out.println(linkedList);
         }
 

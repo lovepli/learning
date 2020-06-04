@@ -1,10 +1,6 @@
 package com.datastructure.learning.leetcode.stack;
 
-
-//import java.util.Stack;  //引用java API中的栈Stack
-//使用自定义的类EarrayStack
-import com.datastructure.learning.datastucture.Stack.ArrayStack;
-
+import com.datastructure.learning.datastucture.Stack.LinkedListStack;
 
 /**
  * 知识点：栈的另一个应用：括号匹配
@@ -12,14 +8,14 @@ import com.datastructure.learning.datastucture.Stack.ArrayStack;
  * 数组栈 匹配括号
  *  核心思想：对前一个char和当前的char同时进行校验，
  * */
-class Solution {
+public class LinkedListSolution {
 
     public boolean isValid(String s){
-       // Stack<Character> stack=new Stack<>()
-        //新建一个stack容器，用来存储元素 这里栈中存储的是char,所以类型是Character
-       ArrayStack<Character> stack=new ArrayStack<>();
+        // Stack<Character> stack=new Stack<>()
+        //新建一个LinkedListStack容器，用来存储元素 这里栈中存储的是char,所以类型是Character
+        LinkedListStack<Character> stack=new LinkedListStack<>();
 
-       //遍历字符串得到index位置的字节
+        //遍历字符串得到index位置的字节
         for (int i = 0; i < s.length(); i++) {
             //返回char指定索引处的值
             char c = s.charAt(i);
@@ -51,10 +47,8 @@ class Solution {
         return  stack.isEmpty();
     }
 
-    public static void main(String[] args) {
-        //这里字符串规则是前一个char和后一个char的关系是正反括号的关系，注意观察！所以规律是要进行前后char的验证，TODO 如果需要你验证"{[()]}",你该怎怎么写？
-        System.out.println(new Solution().isValid("(){}[]()"));
-        System.out.println(new Solution().isValid("({)}[]"));
-        System.out.println(new Solution().isValid("  ({)}[]"));
-    }
+  public static void main(String[] args) {
+    //
+      System.out.println(new LinkedListSolution().isValid("(){}[]()"));
+  }
 }

@@ -33,6 +33,8 @@ public class LinkedList1<E> {
           * @param e
           */
          public Node(E e){ //用户只传递了一个元素
+             //this.e=e;
+            //this.next=null;
              this(e,null);
          }
 
@@ -53,7 +55,7 @@ public class LinkedList1<E> {
     //无参构造器  为什么没有有参构造函数？ 链表不是一个初始化固定容量的容器，他是一个依次加一容量动态增加的对象，所以没有初始容量capacity这个值
     //初始链表长度为0
     public LinkedList1(){
-        head = null;  //初始化的时候是空的，没有节点
+        head = null;  //初始化的时候是空的，没有通过new Node()在内存中创建空间，即不存在节点
         size = 0;
     }
 

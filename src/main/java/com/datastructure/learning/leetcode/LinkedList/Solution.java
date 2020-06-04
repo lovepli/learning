@@ -1,4 +1,4 @@
-package com.datastructure.learning.leetcode.linkedList;
+package com.datastructure.learning.leetcode.LinkedList;
 
 /**
  * @author: lipan
@@ -8,16 +8,20 @@ package com.datastructure.learning.leetcode.linkedList;
 public class Solution {
     public ListNode removeElements(ListNode head, int val) {
 
+        //因为这里没有使用虚拟节点，所以要判断目标节点，需要分为头部节点和其他节点的情况
+        //1、判断头部节点不为null value存在头节点中
         while (head != null && head.val == val) {  //这里不用if判断，考虑到下一个节点可能也是val的情况，要循环判断
 //            ListNode delNode =head;
 //            head =head.next;
-//            delNode.next = null;
+//            delNode.next = null;  //垃圾回收
             //一句话替换三句话
             head = head.next;
         }
+        //2、判断头部节点为null
         if (head == null) {
             return null;
         }
+        //3、判断头部节点之后的节点  value存在其他节点中
         ListNode prev =head;
         while (prev.next != null) {
             if (prev.next.val == val) {
