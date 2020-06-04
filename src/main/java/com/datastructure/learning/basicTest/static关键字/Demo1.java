@@ -9,6 +9,7 @@ package com.datastructure.learning.basicTest.static关键字;
 class CarConstants {
     // 全局配置,一般全局配置会和final一起配合使用, 作为共享变量
     public static final int MAX_CAR_NUM = 10000;
+
 }
 
 class Car {
@@ -24,13 +25,14 @@ class CarFactory {
             throw new RuntimeException("超出最大可生产数量");
         }
         Car c = new Car();
-        createCarNum++;
+        createCarNum++; //计算生成了多少量车
         return c;
     }
 
     public static int getCreateCarNum() {
         return createCarNum;
     }
+
 }
 
 

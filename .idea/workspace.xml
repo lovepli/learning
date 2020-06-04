@@ -2,29 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/volatile关键字/TestVolatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_2_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/static关键字/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/ConcurrentHashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/config/GuavaCacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/demo2/CacheGuavaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/demo2/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/demo2/CacheServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/常见的排序算法/simpread-十大经典排序算法 (动态演示 + 代码).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/单例模式/Singleton3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/exampledemo/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/exampledemo/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/exampledemo/RspDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/exampledemo/RspDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/exampledemo/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/exampledemo/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/exampledemo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/exampledemo/UserVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/annotation/IdentityCardNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/annotation/IdentityCardNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/exception/BizException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/exception/BizException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/exception/DuplicateKeyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/exception/DuplicateKeyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/group/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/group/Create.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/group/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/group/Update.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/response/RspDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/response/RspDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/utils/IdCardValidatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/utils/IdCardValidatorUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation/validation参数校验/valid/IdentityCardNumberValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/参数校验validation/validation参数校验/valid/IdentityCardNumberValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedListR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/LinkedList/LinkedListR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedListR$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedListR$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedListR.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/LinkedList/LinkedListR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/static关键字/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/static关键字/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/CarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/CarFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Demo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/exampledemo/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/exampledemo/RspDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/exampledemo/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/exampledemo/UserVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/annotation/IdentityCardNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/dto/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/exception/BizException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/exception/DuplicateKeyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/group/Create.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/group/Update.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/response/RspDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/utils/IdCardValidatorUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/valid/IdentityCardNumberValidator.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +63,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -74,7 +96,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.40954095" />
@@ -89,6 +111,7 @@
       <recent name="com.datastructure.learning.basicTest.多线程和并发.多线程共享数据" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/volatile关键字" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -102,11 +125,11 @@
       <recent name="com.datastructure.learning.basicTest.helpBean.testExample3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/常见的排序算法" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation参数校验" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json/fastjson/jsonfiled" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/json" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -115,7 +138,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.LinkedListSolution">
+  <component name="RunManager" selected="Application.ConcurrentHashMapTest">
     <configuration name="ArrayStackSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.stack.ArrayStackSolution" />
       <module name="learning" />
@@ -129,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.datastucture.LinkedList.LinkListTest" />
+    <configuration name="CarConstants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.static关键字.CarConstants" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.datastucture.LinkedList.*" />
+          <option name="PATTERN" value="com.datastructure.learning.basicTest.static关键字.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.datastucture.LinkedList.LinkedList2" />
+    <configuration name="ConcurrentHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.实现一个本地缓存cache.ConcurrentHashMapTest" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.datastucture.LinkedList.*" />
+          <option name="PATTERN" value="com.datastructure.learning.basicTest.实现一个本地缓存cache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcurrentHashMapTest" />
+        <item itemvalue="Application.CarConstants" />
         <item itemvalue="Application.LinkedListSolution" />
         <item itemvalue="Application.ArrayStackSolution" />
         <item itemvalue="Application.LinkedListStack" />
-        <item itemvalue="Application.LinkListTest" />
-        <item itemvalue="Application.LinkedList2" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +255,9 @@
       <workItem from="1591059737298" duration="33000" />
       <workItem from="1591059806547" duration="6464000" />
       <workItem from="1591145849766" duration="20415000" />
-      <workItem from="1591231934708" duration="1499000" />
+      <workItem from="1591231934708" duration="3474000" />
+      <workItem from="1591251033517" duration="5321000" />
+      <workItem from="1591260534553" duration="1485000" />
     </task>
     <servers />
   </component>
@@ -244,10 +269,18 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="657" y="393" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1591232361837" />
+    <state x="516" y="155" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591253000059">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="516" y="155" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1591253000058" />
     <state x="604" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1591065382701">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="604" y="109" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1591065382701" />
+    <state x="260" y="142" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1591255858833">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="260" y="142" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.877@0.23.1440.877" timestamp="1591255858833" />
     <state x="220" y="363" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589956146998">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -256,22 +289,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="471" y="23" width="534" height="877" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877@0.23.1440.877" timestamp="1591150636904" />
-    <state width="1353" height="135" key="GridCell.Tab.0.bottom" timestamp="1591177566548">
+    <state width="1353" height="78" key="GridCell.Tab.0.bottom" timestamp="1591259240241">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1353" height="135" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591177566548" />
-    <state width="1353" height="135" key="GridCell.Tab.0.center" timestamp="1591177566548">
+    <state width="1353" height="78" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591259240241" />
+    <state width="1353" height="78" key="GridCell.Tab.0.center" timestamp="1591259240241">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1353" height="135" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591177566548" />
-    <state width="1353" height="135" key="GridCell.Tab.0.left" timestamp="1591177566547">
+    <state width="1353" height="78" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591259240241" />
+    <state width="1353" height="78" key="GridCell.Tab.0.left" timestamp="1591259240240">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1353" height="135" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591177566547" />
-    <state width="1353" height="135" key="GridCell.Tab.0.right" timestamp="1591177566548">
+    <state width="1353" height="78" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591259240240" />
+    <state width="1353" height="78" key="GridCell.Tab.0.right" timestamp="1591259240241">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1353" height="135" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591177566548" />
+    <state width="1353" height="78" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591259240241" />
     <state width="1353" height="135" key="GridCell.Tab.1.bottom" timestamp="1591177566549">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -288,10 +321,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1353" height="135" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1591177566549" />
-    <state x="199" y="224" key="Maven.ArtifactSearchDialog" timestamp="1589955960718">
+    <state x="199" y="224" key="Maven.ArtifactSearchDialog" timestamp="1591255761522">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="199" y="224" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1589955960718" />
+    <state x="199" y="224" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1591255761522" />
     <state x="318" y="65" width="1110" height="722" key="SettingsEditor" timestamp="1590026653484">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -300,10 +333,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="278" y="214" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.877@0.23.1440.877" timestamp="1589939560302" />
-    <state x="91" y="65" key="new project wizard" timestamp="1590647462688">
+    <state x="176" y="183" key="new project wizard" timestamp="1591261511533">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="91" y="65" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1590647462688" />
+    <state x="176" y="183" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1591261511533" />
     <state x="337" y="279" key="run.anything.popup" timestamp="1591175010152">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
