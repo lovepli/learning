@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/API接口设计/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/CommonsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/EasyExcelDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/GuavaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/JodaTimeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/JsonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/MyBatisPlusDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/OkHttp3Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/StreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/joorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/simpread-别在重复造轮子了，几个值得应用到项目中的 Java 开源库送给你.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/vjtoolsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/java8的新特性/simpread-【译】Java 8 的新特性—终极版 - 简书.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/LinkedListQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/LoopQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/LoopQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LoopQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LoopQueue.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +55,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/java8的新特性" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.40954095" />
@@ -93,11 +77,11 @@
       <recent name="com.datastructure.learning.basicTest.helpBean.testExample3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/java8的新特性" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/常见的排序算法" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -234,7 +218,7 @@
       <workItem from="1591251033517" duration="5321000" />
       <workItem from="1591260534553" duration="1485000" />
       <workItem from="1591578461282" duration="2729000" />
-      <workItem from="1591669212057" duration="1979000" />
+      <workItem from="1591669212057" duration="3343000" />
     </task>
     <servers />
   </component>
