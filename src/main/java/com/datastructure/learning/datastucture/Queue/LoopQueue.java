@@ -15,6 +15,7 @@ public class LoopQueue<E> implements  Queue<E> {
     //实际数组元素的多少
     private int size;  //不增加size变量，实现循环队列
 
+    //构造函数初始化
     public LoopQueue(int capacity){
         data= (E[]) new Object[capacity+1];  // TODO 理解视频图例 有意识的浪费了一个空间 capacity+1 不理解？？ data.length=capacity+1
         front=0;
@@ -29,7 +30,6 @@ public class LoopQueue<E> implements  Queue<E> {
 
     //最多可以容纳多少元素
     public int getCapacity(){
-
         return data.length-1;  //data.length-1 表示减去一个浪费的不占元素的空间 此时data.length的实际长度又变为了capacity
     }
 
@@ -48,8 +48,8 @@ public class LoopQueue<E> implements  Queue<E> {
     }
 
     /**
-     * 入队
-     * 判断队列满的条件：(tail+1)%capacity ==  front
+     * 入队操作
+     * 判断队列满的条件：(tail+1)%capacity ==  front   当前索引+1然后对数组长度求余
      * */
     @Override
     public void enqueue(E e) {
@@ -81,7 +81,7 @@ public class LoopQueue<E> implements  Queue<E> {
 
 
     /**
-     * 出队
+     * 出队操作
      * @return
      */
     @Override

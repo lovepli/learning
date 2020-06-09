@@ -2,51 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_2_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/static关键字/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/ConcurrentHashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/config/GuavaCacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/demo2/CacheGuavaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/demo2/CacheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/demo2/CacheServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/常见的排序算法/simpread-十大经典排序算法 (动态演示 + 代码).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式/单例模式/Singleton3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/API接口设计/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/CommonsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/EasyExcelDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/GuavaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/JodaTimeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/JsonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/MyBatisPlusDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/OkHttp3Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/StreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/joorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/simpread-别在重复造轮子了，几个值得应用到项目中的 Java 开源库送给你.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库/vjtoolsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/static关键字/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/static关键字/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/CarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/CarFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/static关键字/Demo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/exampledemo/Constant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/exampledemo/RspDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/exampledemo/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/exampledemo/UserVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/annotation/IdentityCardNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/dto/UserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/exception/BizException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/exception/DuplicateKeyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/exception/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/group/Create.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/group/Update.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/response/RspDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/utils/IdCardValidatorUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/basicTest/validation/validation参数校验/valid/IdentityCardNumberValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/LinkedListQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/LoopQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/datastucture/Queue/LoopQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LinkedListQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LoopQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/datastructure/learning/datastucture/Queue/LoopQueue.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,12 +64,14 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.40954095" />
@@ -110,13 +85,6 @@
       <recent name="com.datastructure.learning.basicTest.实用帮助类.fastjson的使用.jsonfield的使用" />
       <recent name="com.datastructure.learning.basicTest.多线程和并发.多线程共享数据" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/volatile关键字" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.datastructure.learning.basicTest.validation参数校验.controller" />
       <recent name="com.datastructure.learning.basicTest.实用帮助类.jackson的使用" />
@@ -125,11 +93,18 @@
       <recent name="com.datastructure.learning.basicTest.helpBean.testExample3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/Java开源工具库" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/实现一个本地缓存cache/guava本地缓存实现" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/常见的排序算法" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/validation参数校验" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/volatile关键字" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -258,6 +233,8 @@
       <workItem from="1591231934708" duration="3474000" />
       <workItem from="1591251033517" duration="5321000" />
       <workItem from="1591260534553" duration="1485000" />
+      <workItem from="1591578461282" duration="2729000" />
+      <workItem from="1591669212057" duration="1979000" />
     </task>
     <servers />
   </component>
@@ -333,10 +310,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="278" y="214" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.877@0.23.1440.877" timestamp="1589939560302" />
-    <state x="176" y="183" key="new project wizard" timestamp="1591261511533">
+    <state x="176" y="183" key="new project wizard" timestamp="1591583561418">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="176" y="183" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1591261511533" />
+    <state x="176" y="183" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1591583561418" />
     <state x="337" y="279" key="run.anything.popup" timestamp="1591175010152">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

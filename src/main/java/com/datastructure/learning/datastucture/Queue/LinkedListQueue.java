@@ -7,6 +7,7 @@ package com.datastructure.learning.datastucture.Queue;
  * 在链表头节点head处出队 在链表尾节点tail处入队
  */
 public class LinkedListQueue<E> implements Queue<E> {
+
     private class Node{
         public E e;
         public Node next; //public
