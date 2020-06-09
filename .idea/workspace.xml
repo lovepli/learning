@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/回调函数/设计模式 - 回调、事件监听器、观察者模式之间的关系 .md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/异步请求和调用/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/异步请求和调用/RequestAsyncPoolConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/异步请求和调用/simpread-如何在 SpringBoot 中异步请求和异步调用.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/监听器/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/异步请求和调用/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/异步请求和调用/EmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -106,7 +101,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.ConcurrentHashMapTest">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="ArrayStackSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.stack.ArrayStackSolution" />
       <module name="learning" />
@@ -159,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.datastucture.Stack.LinkedListStack" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.基础知识.Java代码块执行顺序.Test" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.datastucture.Stack.*" />
+          <option name="PATTERN" value="com.datastructure.learning.basicTest.基础知识.Java代码块执行顺序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ConcurrentHashMapTest" />
         <item itemvalue="Application.CarConstants" />
         <item itemvalue="Application.LinkedListSolution" />
         <item itemvalue="Application.ArrayStackSolution" />
-        <item itemvalue="Application.LinkedListStack" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +222,7 @@
       <workItem from="1591251033517" duration="5321000" />
       <workItem from="1591260534553" duration="1485000" />
       <workItem from="1591578461282" duration="2729000" />
-      <workItem from="1591669212057" duration="8233000" />
+      <workItem from="1591669212057" duration="9738000" />
     </task>
     <servers />
   </component>
@@ -259,22 +254,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="471" y="23" width="534" height="877" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877@0.23.1440.877" timestamp="1591150636904" />
-    <state width="1353" height="78" key="GridCell.Tab.0.bottom" timestamp="1591259240241">
+    <state width="1398" height="211" key="GridCell.Tab.0.bottom" timestamp="1591685638569">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1353" height="78" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591259240241" />
-    <state width="1353" height="78" key="GridCell.Tab.0.center" timestamp="1591259240241">
+    <state width="1398" height="211" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591685638569" />
+    <state width="1398" height="211" key="GridCell.Tab.0.center" timestamp="1591685638568">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1353" height="78" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591259240241" />
-    <state width="1353" height="78" key="GridCell.Tab.0.left" timestamp="1591259240240">
+    <state width="1398" height="211" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591685638568" />
+    <state width="1398" height="211" key="GridCell.Tab.0.left" timestamp="1591685638567">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1353" height="78" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591259240240" />
-    <state width="1353" height="78" key="GridCell.Tab.0.right" timestamp="1591259240241">
+    <state width="1398" height="211" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591685638567" />
+    <state width="1398" height="211" key="GridCell.Tab.0.right" timestamp="1591685638568">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1353" height="78" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591259240241" />
+    <state width="1398" height="211" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591685638568" />
     <state width="1353" height="135" key="GridCell.Tab.1.bottom" timestamp="1591177566549">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -291,10 +286,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1353" height="135" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1591177566549" />
-    <state x="178" y="224" key="Maven.ArtifactSearchDialog" timestamp="1591684417699">
+    <state x="178" y="224" key="Maven.ArtifactSearchDialog" timestamp="1591686399670">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="178" y="224" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1591684417699" />
+    <state x="178" y="224" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1591686399670" />
     <state x="318" y="65" width="1110" height="722" key="SettingsEditor" timestamp="1590026653484">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
