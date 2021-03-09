@@ -34,6 +34,18 @@ public class Solution1047 {
       return strArray.toString();
     }
 
+    public String removeDuplicates2(String S) {
+        int now =S.length();
+        int next = 1;
+        while(now != next){
+            now =  S.length();
+            S=S.replace("aa","").replace("bb","").replace("cc","").replace("dd","").replace("ee","").replace("ff","").replace("gg","").replace("hh","").replace("ii","").replace("jj","").replace("kk","").replace("ll","").replace("mm","").replace("nn","").replace("oo","").replace("pp","").replace("qq","").replace("rr","").replace("ss","").replace("tt","").replace("uu","").replace("vv","").replace("ww","").replace("xx","").replace("yy","").replace("zz","");
+            next =  S.length();
+        }
+        return S;
+    }
+
+
 
     /**
      * 根据索引index，删除byte字节数组元素
@@ -53,7 +65,7 @@ public class Solution1047 {
 
     public static void main(String[] args) {
         String str ="aabcbbca";
-        System.out.println("返回的字符串为："+new Solution1047().removeDuplicates(str));
+        System.out.println("返回的字符串为："+new Solution1047().removeDuplicates2(str));
     }
 
 }
