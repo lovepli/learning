@@ -23,8 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/基础知识/for循环及break和continue的区别/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/基础知识/加加i和i加加/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution189.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution26.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution1047.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution1047.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +45,7 @@
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -85,12 +89,20 @@
       <recent name="com.datastructure.learning.basicTest.实用帮助类.fastjson的使用.jsonfield的使用" />
       <recent name="com.datastructure.learning.basicTest.多线程和并发.多线程共享数据" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/volatile关键字" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.datastructure.learning.leetcode.myLeetCode" />
+      <recent name="com.datastructure.learning.basicTest.基础知识.for循环及break和continue的区别" />
+      <recent name="com.datastructure.learning.basicTest.基础知识.加加i和i加加" />
       <recent name="com.datastructure.learning.basicTest.validation参数校验.controller" />
       <recent name="com.datastructure.learning.basicTest.实用帮助类.jackson的使用" />
-      <recent name="com.datastructure.learning.basicTest.实用帮助类.其他javabean注解" />
-      <recent name="com.datastructure.learning.basicTest.设计模式.适配器模式.对象的适配器模式" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\59688\Documents\GitHub\learning" />
@@ -99,14 +111,6 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/BigDecimal类型使用" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/异步请求和调用" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/volatile关键字" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
@@ -114,13 +118,13 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.Solution1047">
-    <configuration name="Solution1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.Solution1" />
+  <component name="RunManager" selected="Application.Solution26">
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.基础知识.for循环及break和continue的区别.Demo" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.*" />
+          <option name="PATTERN" value="com.datastructure.learning.basicTest.基础知识.for循环及break和continue的区别.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +132,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.datastucture.myLeetCode.Solution1" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.基础知识.加加i和i加加.Demo" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.datastucture.myLeetCode.*" />
+          <option name="PATTERN" value="com.datastructure.learning.basicTest.基础知识.加加i和i加加.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.Solution1" />
+      <module name="learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,34 +171,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.Solution26" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.datastucture.myLeetCode.*" />
+          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.datastructure.learning.datastucture.myLeetCode" />
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.datastucture.myLeetCode.Solution1" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution1.twoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.datastucture.myLeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.datastructure.learning.datastucture.myLeetCode" />
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.datastucture.myLeetCode.Solution1" />
-      <option name="METHOD_NAME" value="twoSum" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution26" />
         <item itemvalue="Application.Solution1047" />
+        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Solution1 (1)" />
-        <item itemvalue="JUnit.Solution1.twoSum" />
-        <item itemvalue="JUnit.Solution1.main" />
-        <item itemvalue="Application.Solution1" />
       </list>
     </recent_temporary>
   </component>
@@ -268,30 +266,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1338" height="215" key="GridCell.Tab.0.bottom" timestamp="1615378090058">
+    <state width="1459" height="130" key="GridCell.Tab.0.bottom" timestamp="1615449694354">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1338" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615378090058" />
-    <state width="1338" height="215" key="GridCell.Tab.0.center" timestamp="1615378090058">
+    <state width="1459" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615449694354" />
+    <state width="1459" height="130" key="GridCell.Tab.0.center" timestamp="1615449694353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1338" height="215" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615378090058" />
-    <state width="1338" height="215" key="GridCell.Tab.0.left" timestamp="1615378090058">
+    <state width="1459" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615449694353" />
+    <state width="1459" height="130" key="GridCell.Tab.0.left" timestamp="1615449694353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1338" height="215" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615378090058" />
-    <state width="1338" height="215" key="GridCell.Tab.0.right" timestamp="1615378090058">
+    <state width="1459" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615449694353" />
+    <state width="1459" height="130" key="GridCell.Tab.0.right" timestamp="1615449694354">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1338" height="215" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615378090058" />
+    <state width="1459" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615449694354" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1615255875454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615255875454" />
-    <state x="466" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1615378747737">
+    <state x="584" y="190" width="600" height="594" key="find.popup" timestamp="1615451399573">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="466" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1615378747737" />
+    <state x="584" y="190" width="600" height="594" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1615451399573" />
+    <state x="466" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1615451351629">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="466" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1615451351629" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

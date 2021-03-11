@@ -54,7 +54,7 @@ public class Solution1047 {
 
     /**
      * 用数组代替集合能够快速提高效率，把 charsArray 当成栈就不会持续申请内存空间。
-     *
+     * <p>
      * 思考：原来string类本身也可以当作栈
      *
      * @param S aabcbbca
@@ -62,19 +62,19 @@ public class Solution1047 {
      */
     public String removeDuplicates(String S) {
         char[] chars = S.toCharArray();
-        int index = -1;
+        int index = -1; // 定义栈指针
         for (int i = 0; i < chars.length; i++) {
             if (index >= 0 && chars[index] == chars[i]) {
                 index--;
-                System.out.println("相同--"+index+"--"+i);
+                // System.out.println("相同--"+index+"--"+i);
             } else {
                 index++;
-                System.out.println("不相同--"+index+"--"+i);
+                //  System.out.println("不相同--"+index+"--"+i);
                 chars[index] = chars[i];
             }
         }
-        System.out.println("得到的字符串："+String.copyValueOf(chars)); // babcbbca ?? 得到的这个chars数组代表的是什么？
-        return String.copyValueOf(chars, 0, index + 1); //ba  解释：数组从索引0开始的index+1=2个字符将被复制到字符串
+       // System.out.println("得到的字符串：" + String.copyValueOf(chars)); // babcbbca ?? 得到的这个chars数组代表的是什么？
+        return String.copyValueOf(chars, 0, index + 1); //ba  TODO 解释：数组从索引0开始的index+1=2个字符将被复制到字符串
     }
     //public static String copyValueOf(char[] data): 返回指定数组中表示该字符序列的字符串。
     //
@@ -82,30 +82,51 @@ public class Solution1047 {
     // offset是需要复制字符的初始索引，count是要复制的字符数。对于例如offset 2 和count 3 将被解释为：数组从第 2 个索引开始的仅仅 3 个字符（第 3 个位置因为索引从 0 开始）应该被复制到相关的String。
 
     /**
-     * 网友：利用栈的数据结构，自定义栈，时间4 ms，击败99.4%
+     * 由1代码精简过来
      * @param S
      * @return
      */
+    public String removeDuplicates4(String S) {
+        char[] chars = S.toCharArray();
+        int index = -1; // 定义栈指针
+        for (int i = 0; i < chars.length; i++) {
+            if (index >= 0 && chars[index] == chars[i]) {
+                index--;
+            } else {
+               // index++; //将两行合并为一行
+               // chars[index] = chars[i];
+                chars[++index] = chars[i];
+            }
+        }
+        return String.copyValueOf(chars, 0, index + 1); //ba  解释：数组从索引0开始的index+1=2个字符将被复制到字符串
+    }
+    /**
+     * 网友：利用栈的数据结构，自定义栈，时间4 ms，击败99.4%
+     * 这里不好理解，建议画图理解
+     *
+     * @param S aabcbbca
+     * @return
+     */
     public String removeDuplicates3(String S) {
-        int n=S.length();
-        char[] ss=S.toCharArray();//转为字符数组
-        char[] stack=new char[n];//定义栈
-        int top=-1; //定义栈指针
+        int n = S.length();
+        char[] chars = S.toCharArray();//转为字符数组
+        char[] stack = new char[n];//定义栈
+        int top = -1; //定义栈指针
         //以下for循环将不重复的字符存放在栈里
-        for(int j=0;j<n;j++){
-            if(top>-1&&stack[top]==ss[j]){
-                top--;//栈针移动，代替真是出栈
-            }else{
-                stack[++top]=ss[j];//根据栈针移动直接覆盖重复的值
+        for (int j = 0; j < n; j++) {
+            if (top > -1 && stack[top] == chars[j]) {
+                top--;//栈针移动，代替真实出栈
+            } else {
+                stack[++top] = chars[j];//根据栈针移动直接覆盖重复的值
             }
         }
         //以下打印栈内不重复的字符
-        char[] ans=new char[top+1];
-        for(int i=0;i<top+1;i++){
-            ans[i]=stack[i];
+        char[] ans = new char[top + 1];
+        for (int i = 0; i < top + 1; i++) {
+            ans[i] = stack[i];
         }
         //通过有参构造传递字符数组，直接创建字符串对象
-        String str=new String(ans);
+        String str = new String(ans);
         return str;
     }
 
@@ -130,22 +151,20 @@ public class Solution1047 {
     /**
      * 根据索引index，删除byte字节数组元素
      */
-    private byte[] delByte(int index, byte[] b) {
-        byte[] b2 = new byte[b.length];
-        int j = 0;
-        for (int i = 0; i < b.length; i++) {
-            if (i == index)
-                continue;
-            j++;
-            b2[j] = b[i];
-        }
-        return b2;
-    }
-
-
+    //private byte[] delByte(int index, byte[] b) {
+    //    byte[] b2 = new byte[b.length];
+    //    int j = 0;
+    //    for (int i = 0; i < b.length; i++) {
+    //        if (i == index)
+    //            continue;
+    //        j++;
+    //        b2[j] = b[i];
+    //    }
+    //    return b2;
+    //}
     public static void main(String[] args) {
         String str = "aabcbbca";
-        System.out.println("返回的字符串为：" + new Solution1047().removeDuplicates(str));
+        System.out.println("返回的字符串为：" + new Solution1047().removeDuplicates4(str));
     }
 
 }
