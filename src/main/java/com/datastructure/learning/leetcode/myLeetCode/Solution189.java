@@ -40,8 +40,112 @@ package com.datastructure.learning.leetcode.myLeetCode;
  */
 public class Solution189 {
 
-    public void rotate(int[] nums, int k) {
-
+    /**
+     * 双重循环
+     * 时间复杂度：O(kn)
+     * 空间复杂度：O(1)
+     *
+     *  * 输入: nums = [1,2,3,4,5,6,7], k = 3
+     *  * 输出: [5,6,7,1,2,3,4]
+     */
+    public void rotate_1(int[] nums, int k) {
+        int n = nums.length;
+        //k %= n; // a-=b相当于a=a-b,a/=b相当于a=a/b,a%=b相当于a=a%b,a%b是求a除以b的余数
+        k = k % n; // 求k除以n的余数,余数为0相当于没有进行旋转
+        for (int i = 0; i < k; i++) { // 外层循环控制循环的次数 k=3次
+            int temp = nums[n - 1]; // 最后一个元素 第一次循环的时候是7 第二次循环temp值为6
+            for (int j = n - 1; j > 0; j--) { // 从数组最后一个元素进行倒序遍历
+                nums[j] = nums[j - 1]; // 将前一个元素赋值给后一个元素
+            }
+            nums[0] = temp; // 将数组最后一个元素赋值给第一个元素
+        }
     }
 
+    /**
+     * 翻转
+     * 时间复杂度：O(n)
+     * 空间复杂度：O(1)
+     *
+     *  * 输入: nums = [1,2,3,4], k = 2
+     *  * 输出: [3,4,1,2]
+     *  * 第1次翻转: [4,3,2,1]
+     *  * 第2次翻转: [3,4,2,1]
+     *  * 第3次翻转: [3,4,1,2]
+     *
+     */
+    public void rotate_2(int[] nums, int k) {
+        int n = nums.length;
+        k %= n;
+        reverse(nums, 0, n - 1); // 第一次翻转 首尾下标位置开始（所有元素）
+        reverse(nums, 0, k - 1); // 第二次翻转 首和翻转次数下标位置开始（下标k之前部分数组元素进行翻转）
+        reverse(nums, k, n - 1); // 第三次翻转，翻转次数下标位置和尾位置开始（下标k之后部分数组元素进行翻转）
+    }
+
+    /**
+     * 数组元素翻转，首尾向内依次对称翻转
+     * @param nums
+     * @param start
+     * @param end
+     */
+    private void reverse(int[] nums, int start, int end) {
+        while (start < end) {
+            int temp = nums[start];
+            nums[start++] = nums[end];
+            nums[end--] = temp;
+        }
+    }
+
+    /**
+     * 循环交换
+     * 时间复杂度：O(n)
+     * 空间复杂度：O(1)
+     */
+    public void rotate_3(int[] nums, int k) {
+        int n = nums.length;
+        k %= n;
+        // 第一次交换完毕后，前 k 位数字位置正确，后 n-k 位数字中最后 k 位数字顺序错误，继续交换
+        for (int start = 0; start < nums.length && k != 0; n -= k, start += k, k %= n) {
+            for (int i = 0; i < k; i++) {
+                swap(nums, start + i, nums.length - k + i);
+            }
+        }
+    }
+
+    /**
+     * 递归交换
+     * 时间复杂度：O(n)
+     * 空间复杂度：O(n/k)
+     */
+    public void rotate(int[] nums, int k) {
+        // 原理同上
+        recursiveSwap(nums, k, 0, nums.length);
+    }
+
+    private void recursiveSwap(int[] nums, int k, int start, int length) {
+        k %= length;
+        if (k != 0) {
+            for (int i = 0; i < k; i++) {
+                swap(nums, start + i, nums.length - k + i);
+            }
+            recursiveSwap(nums, k, start + k, length - k);
+        }
+    }
+
+    /**
+     * 数组元素互相交换位置
+     * @param nums
+     * @param i
+     * @param j
+     */
+    private void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
+    public static void main(String[] args) {
+       int[] nums = {1,2,3,4,5,6,7};
+       int k = 3;
+       new Solution189().rotate_1(nums,k);
+    }
 }

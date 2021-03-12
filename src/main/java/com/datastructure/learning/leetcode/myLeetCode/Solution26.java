@@ -2,6 +2,8 @@ package com.datastructure.learning.leetcode.myLeetCode;
 
 import cn.hutool.json.JSONArray;
 
+import java.util.Arrays;
+
 /**
  * @author: 59688
  * @date: 2021/3/9
@@ -91,15 +93,15 @@ public class Solution26 {
             return nums.length;
         }
 
-        int i = 0; // 指针
-        for (int j = 1; j < nums.length; j++) { //j指针移动
-            if (nums[i] != nums[j]) {
-                //i++; // i指针移动
-                //nums[i] = nums[j]; // 优化省略一行代码
-                nums[++i] = nums[j];
+        int n = 0; // 指针
+        for (int i = 1; i < nums.length; i++) { //j指针移动
+            if (nums[n] != nums[i]) {
+                //n++; // n指针移动
+                //nums[n] = nums[i]; // 优化省略一行代码
+                nums[++n] = nums[i];
             }
         }
-        return i + 1;
+        return n + 1;
     }
 
     /**
@@ -119,7 +121,7 @@ public class Solution26 {
 
         int count = 1; // 计数器
         int index = 1; // 游标
-        for (int i = 1; i < nums.length; i++) {
+        for (int i = 1; i < nums.length; i++) { // i 数组下标
             if (nums[i] == nums[index - 1]) {
                 continue; // 跳出当前循环，继续进行下一个循环
             }
@@ -129,7 +131,6 @@ public class Solution26 {
         }
         return count;
     }
-
 
 
     public static void main(String[] args) {
