@@ -23,10 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution217.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution189.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution189.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution136.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution136.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.Solution217">
+  <component name="RunManager" selected="Application.Solution136">
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.基础知识.for循环及break和continue的区别.Demo" />
       <module name="learning" />
@@ -130,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.basicTest.基础知识.加加i和i加加.Demo" />
+    <configuration name="Solution1047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.Solution1047" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.basicTest.基础知识.加加i和i加加.*" />
+          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.Solution1047" />
+    <configuration name="Solution136" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.Solution136" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
@@ -191,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution136" />
         <item itemvalue="Application.Solution217" />
         <item itemvalue="Application.Solution26" />
         <item itemvalue="Application.Solution1047" />
         <item itemvalue="Application.Demo (1)" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -264,22 +263,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="141" key="GridCell.Tab.0.bottom" timestamp="1615534157470">
+    <state width="1493" height="141" key="GridCell.Tab.0.bottom" timestamp="1615536164647">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="141" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615534157470" />
-    <state width="1493" height="141" key="GridCell.Tab.0.center" timestamp="1615534157469">
+    <state width="1493" height="141" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615536164647" />
+    <state width="1493" height="141" key="GridCell.Tab.0.center" timestamp="1615536164646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="141" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615534157469" />
-    <state width="1493" height="141" key="GridCell.Tab.0.left" timestamp="1615534157469">
+    <state width="1493" height="141" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615536164646" />
+    <state width="1493" height="141" key="GridCell.Tab.0.left" timestamp="1615536164646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="141" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615534157469" />
-    <state width="1493" height="141" key="GridCell.Tab.0.right" timestamp="1615534157470">
+    <state width="1493" height="141" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615536164646" />
+    <state width="1493" height="141" key="GridCell.Tab.0.right" timestamp="1615536164646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="141" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615534157470" />
+    <state width="1493" height="141" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615536164646" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1615255875454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

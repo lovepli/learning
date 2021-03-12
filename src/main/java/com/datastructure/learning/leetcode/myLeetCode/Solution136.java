@@ -1,5 +1,9 @@
 package com.datastructure.learning.leetcode.myLeetCode;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * @author: 59688
  * @date: 2021/3/9
@@ -24,11 +28,56 @@ package com.datastructure.learning.leetcode.myLeetCode;
  */
 public class Solution136 {
 
-    public int singleNumber(int[] nums) {
-     return 0;
+    /**
+     * 解题思路，消除掉所有重复的元素则得到唯一的不重复的元素
+     * 使用hashSet解题
+     * @param nums
+     * @return
+     */
+    public int singleNumber(int[] nums)  {
+        if(nums.length == 1){
+            return nums[0];
+        }
+        if(nums.length == 2 ){
+            System.out.println("不符合题意");
+          //  throw new Exception("不符合题意");
+        }
+        Set<Integer> hashSet=new HashSet<>();
+        Set<Integer> hashSet2=new HashSet<>();
+        for(Integer n:nums){
+            if(hashSet.contains(n)){
+                hashSet2.add(n);
+            }
+            hashSet.add(n);
+        }
+         for(Integer n2:hashSet2){
+             if(hashSet.contains(n2)){
+                 hashSet.remove(n2);
+             }
+         }
+
+         if(hashSet.size() == 1){
+             for(Integer n3:hashSet){
+                 return  n3;
+             }
+         }
+     return nums[0];
     }
 
-    public static void main(String[] args) {
+    /**
+     * 使用数组解题
+     * @param nums
+     * @return
+     */
+    public int singleNumber2(int[] nums)  {
+        Arrays.sort(nums); // 数组排序
+
+        return 0;
+    }
+
+    public static void main(String[] args)  {
+        int [] nums={4,1,2,1,2,4,5,7,5};
+        System.out.println("唯一不重复的元素为："+new Solution136().singleNumber(nums));
 
     }
 }
