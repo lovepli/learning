@@ -1,5 +1,7 @@
 package com.datastructure.learning.leetcode.myLeetCode;
 
+import cn.hutool.json.JSONArray;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -70,14 +72,38 @@ public class Solution136 {
      * @return
      */
     public int singleNumber2(int[] nums)  {
+        if(nums.length==1){
+            return nums[0];
+        }
+        if(nums.length == 2 ){ // i>=3
+            System.out.println("不符合题意");
+            //  throw new Exception("不符合题意");
+        }
         Arrays.sort(nums); // 数组排序
+        JSONArray jsonArray=new JSONArray(nums);
+        System.out.println("排序之后得到的数组："+jsonArray.toString());
+        int i=0,j=1; // 双指针
+        while(i<=nums.length){
+            if(j==nums.length){
+                return nums[i];
+            } else {
+                if(nums[i] == nums[j] ){
+                    i+=2;
+                    j+=2;
+                }else {
+                    System.out.println("===="+nums[i]);
+                    return nums[i];
+                }
+            }
 
-        return 0;
+        }
+        return nums[0];
     }
 
     public static void main(String[] args)  {
-        int [] nums={4,1,2,1,2,4,5,7,5};
-        System.out.println("唯一不重复的元素为："+new Solution136().singleNumber(nums));
+        int [] nums={1,2,1,2,3,4,4,5,6,5,6,7,7};
+        int [] nums0={4,1,2,1,2};
+        System.out.println("唯一不重复的元素为："+new Solution136().singleNumber2(nums));
 
     }
 }
