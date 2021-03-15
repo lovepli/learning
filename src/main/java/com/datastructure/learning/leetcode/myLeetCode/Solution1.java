@@ -1,7 +1,6 @@
 package com.datastructure.learning.leetcode.myLeetCode;
 
-import cn.hutool.json.JSONArray;
-
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -72,10 +71,7 @@ public class Solution1 {
     public static void main(String[] args) {
         int [] nums={1,3,4,6,7};
         int target=8;
-        // 数组转为json数组
-        JSONArray jsonArray=new JSONArray(new Solution1().twoSum(nums,target));
-       // JSONArray jsonArray=new JSONArray(new Solution1().twoSum2(nums,target));
-        System.out.println("两数之和："+jsonArray.toString());
+        System.out.println("两数之和："+ Arrays.toString(new Solution1().twoSum(nums,target)));
     }
     /**
      * 解析：思路及算法

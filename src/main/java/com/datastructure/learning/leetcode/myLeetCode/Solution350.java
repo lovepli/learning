@@ -37,41 +37,13 @@ import java.util.*;
  */
 public class Solution350 {
 
-    public int[] intersect(int[] nums1, int[] nums2) {
-        Set<Integer> hashSet=new HashSet<Integer>();
-        Set<Integer> hashSet2=new HashSet<Integer>();
-        for(Integer n1:nums1){
-            hashSet.add(n1);
-        }
-        for (Integer n2:nums2){
-            hashSet2.add(n2);
-        }
-        List<Integer> list=new ArrayList<Integer>();
-        if(hashSet.size()-hashSet2.size()>=0){
-            for(Integer set2:hashSet2){
-                if(hashSet.contains(set2)){
-                    list.add(set2);
-                }
-            }
-            int[] array0 = new int[list.size()];
-            for (int i=0;i<array0.length;i++){
-                array0[i]=list.get(i);
-            }
-            return array0;
-        } else {
-            for(Integer set1:hashSet){
-                if(hashSet2.contains(set1)){
-                    list.add(set1);
-                }
-            }
-            int[] array0 = new int[list.size()];
-            for (int i=0;i<array0.length;i++){
-                array0[i]=list.get(i);
-            }
-            return array0;
-        }
-    }
-
+    /**
+     * 自己的思路：建一个哈希表先把小的数组存进去然后遍历大数组
+     * 出现错误，只满足部分情况，需要再排查一下
+     * @param nums1
+     * @param nums2
+     * @return
+     */
     public int[] intersect2(int[] nums1, int[] nums2) {
         int[] array=  findJaoJi(nums1,nums2);
         Map<Integer,Integer> map =fun1(nums1,nums2);
@@ -252,69 +224,12 @@ public class Solution350 {
     public static void main(String[] args) {
        int[] nums1 = {1,2,2,1};
        int [] nums2 = {2,2}; // 目标 [2,2]
-       int [] array= new Solution350().intersect(nums1,nums2);
+       int [] array= new Solution350().intersect2(nums1,nums2);
         JSONArray jsonArray=new JSONArray(array);
         System.out.println("得到的数组："+jsonArray.toString());
     }
 
-    /**
-     * 扩展知识点：
-     *  * 遍历Map的三种方式
-     *  * 1:遍历所有的key
-     *  * 2:遍历所有的键值树(key-value)
-     *  * 3:遍历所有的value(不常用)
-     */
-    public void  MapDemo(){
-        Map<String,Integer> map = new HashMap<String,Integer>();
-        //     ( k   , v )
-        map.put("语文", 90);
-        map.put("数学", 98);
-        map.put("物理", 85);
-        map.put("化学", 78);
-        map.put("英语", 92);
-        map.put("体育", 65);
-        map.put("体育", 78);
-
-        /*
-         * 遍历所有的key
-         * Set<K> keySet()
-         * 该方法可以获取Map中所有的key，并将它们存入
-         * 一个Set集合中返回
-         * 所以，遍历该集合就等于遍历所有的key了
-         */
-        Set<String> keySet = map.keySet();
-        for(String key : keySet) {
-            System.out.println("key:"+key);
-        }
-        /*
-         * 遍历键值树
-         * Set<Entry> entrySet()
-         * 该方法会将每一组key-value存入一个Entry
-         * 实例中，并将这些Entry实例存入一个Set集合
-         * 并返回
-         * 我们只需要便利该集合，拿到每一个Entry实例
-         * 并获取其中的key与value即可
-         */
-        Set<Map.Entry<String,Integer>> entrySet = map.entrySet();
-        for(Map.Entry<String,Integer> e:entrySet) {
-            String key = e.getKey();
-            Integer value = e.getValue();
-            System.out.println(key+":"+value);
-        }
-
-        /*
-         * 遍历所有的value
-         */
-
-        Collection<Integer> values = map.values();
-        for(Integer value : values) {
-            System.out.println("value:"+value);
-        }
-
-    }
 
 }
 
-/**
- *
- */
+

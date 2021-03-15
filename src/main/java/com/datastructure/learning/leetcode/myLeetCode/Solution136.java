@@ -1,7 +1,5 @@
 package com.datastructure.learning.leetcode.myLeetCode;
 
-import cn.hutool.json.JSONArray;
-
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -80,8 +78,7 @@ public class Solution136 {
             //  throw new Exception("不符合题意");
         }
         Arrays.sort(nums); // 数组排序
-        JSONArray jsonArray=new JSONArray(nums);
-        System.out.println("排序之后得到的数组："+jsonArray.toString());
+        System.out.println("排序之后得到的数组："+Arrays.toString(nums));
         int i=0,j=1; // 双指针
         while(i<=nums.length){
             if(j==nums.length){

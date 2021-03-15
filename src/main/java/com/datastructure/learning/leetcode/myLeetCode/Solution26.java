@@ -65,8 +65,7 @@ public class Solution26 {
                 j++;
             }
         }
-        //JSONArray jsonArray=new JSONArray(nums);
-        //System.out.println("结果数组："+jsonArray.toString());
+        //System.out.println("结果数组："+Arrays.toString(nums));
         return i+1;
     }
 

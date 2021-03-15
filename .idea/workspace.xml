@@ -23,8 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution350.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution350_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/TodoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/TodoMapLearn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution136.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution136.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution350.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution350.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +46,8 @@
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,6 +81,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.40954095" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
@@ -84,6 +91,14 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.datastructure.learning.basicTest.实用帮助类.fastjson的使用.jsonfield的使用" />
       <recent name="com.datastructure.learning.basicTest.多线程和并发.多线程共享数据" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/volatile关键字" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.datastructure.learning.leetcode.myLeetCode" />
@@ -99,14 +114,6 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/BigDecimal类型使用" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/异步请求和调用" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/volatile关键字" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
@@ -114,20 +121,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.Solution350">
-    <configuration name="Solution1047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.Solution1047" />
-      <module name="learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution350_2">
     <configuration name="Solution136" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.Solution136" />
       <module name="learning" />
@@ -180,6 +174,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution350_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.Solution350_2" />
+      <module name="learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DatastructureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="learning" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.datastructure.learning.DatastructureApplication" />
@@ -189,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution350_2" />
         <item itemvalue="Application.Solution350" />
         <item itemvalue="Application.Solution136" />
         <item itemvalue="Application.Solution217" />
         <item itemvalue="Application.Solution26" />
-        <item itemvalue="Application.Solution1047" />
       </list>
     </recent_temporary>
   </component>
@@ -262,22 +269,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="88" key="GridCell.Tab.0.bottom" timestamp="1615544927707">
+    <state x="541" y="415" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1615777580320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="88" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615544927707" />
-    <state width="1493" height="88" key="GridCell.Tab.0.center" timestamp="1615544927707">
+    <state x="541" y="415" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1615777580320" />
+    <state width="1460" height="68" key="GridCell.Tab.0.bottom" timestamp="1615776522146">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="88" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615544927707" />
-    <state width="1493" height="88" key="GridCell.Tab.0.left" timestamp="1615544927707">
+    <state width="1460" height="68" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615776522146" />
+    <state width="1460" height="68" key="GridCell.Tab.0.center" timestamp="1615776522146">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="88" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615544927707" />
-    <state width="1493" height="88" key="GridCell.Tab.0.right" timestamp="1615544927707">
+    <state width="1460" height="68" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615776522146" />
+    <state width="1460" height="68" key="GridCell.Tab.0.left" timestamp="1615776522146">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="88" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615544927707" />
+    <state width="1460" height="68" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615776522146" />
+    <state width="1460" height="68" key="GridCell.Tab.0.right" timestamp="1615776522146">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1460" height="68" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615776522146" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1615541596511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
