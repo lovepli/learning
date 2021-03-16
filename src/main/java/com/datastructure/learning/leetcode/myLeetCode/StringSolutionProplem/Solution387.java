@@ -180,10 +180,13 @@ public class Solution387 {
     public int firstUniqChar_2(String s) {
         int[] freq = new int[26];
         char[] chars = s.toCharArray();
+        // s全部存到哈希表中
         for (char ch : chars) {
-            freq[ch - 'a']++;
+            freq[ch - 'a']++; //ch-'a' 遍历s将字符串存到哈希表中，重复的加一
+           // System.out.println("freq[ch - 'a']++表示的意思是什么："+freq[ch - 'a']);
         }
         for (int i = 0; i < chars.length; i++) {
+            //
             if (freq[chars[i] - 'a'] == 1) {
                 return i;
             }
@@ -249,7 +252,7 @@ public class Solution387 {
 
     public static void main(String[] args) {
         String s = "loveleetcode";
-       int in= new Solution387().firstUniqChar(s);
+       int in= new Solution387().firstUniqChar_2(s);
         System.out.println(in);
     }
 }

@@ -23,10 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution387.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution242.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution344.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution344.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution387.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution387.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,20 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.Solution387">
+  <component name="RunManager" selected="Application.Solution242">
+    <configuration name="Solution242" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.Solution242" />
+      <module name="learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution283" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.Solution283" />
       <module name="learning" />
@@ -170,19 +182,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoBigDecimalLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.SolutionLearnTodo.TodoBigDecimalLearn" />
-      <module name="learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.SolutionLearnTodo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DatastructureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="learning" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.datastructure.learning.DatastructureApplication" />
@@ -192,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution242" />
         <item itemvalue="Application.Solution387" />
         <item itemvalue="Application.Solution344" />
         <item itemvalue="Application.Solution283" />
         <item itemvalue="Application.Solution66" />
-        <item itemvalue="Application.TodoBigDecimalLearn" />
       </list>
     </recent_temporary>
   </component>
@@ -273,22 +272,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="541" y="415" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1615777580320" />
-    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1615865042642">
+    <state width="1305" height="181" key="GridCell.Tab.0.bottom" timestamp="1615880715624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615865042642" />
-    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1615865042641">
+    <state width="1305" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615880715624" />
+    <state width="1305" height="181" key="GridCell.Tab.0.center" timestamp="1615880715624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615865042641" />
-    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1615865042641">
+    <state width="1305" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615880715624" />
+    <state width="1305" height="181" key="GridCell.Tab.0.left" timestamp="1615880715624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615865042641" />
-    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1615865042641">
+    <state width="1305" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615880715624" />
+    <state width="1305" height="181" key="GridCell.Tab.0.right" timestamp="1615880715624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615865042641" />
+    <state width="1305" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615880715624" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1615541596511">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
