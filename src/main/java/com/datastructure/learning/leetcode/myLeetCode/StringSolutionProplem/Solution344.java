@@ -25,7 +25,7 @@ import java.util.Arrays;
 public class Solution344 {
 
     /**
-     * 利用数组性质，进行数组翻转
+     * 利用数组性质，进行数组翻转，也叫对称翻转
      * @param s
      */
     public void reverseString(char[] s) {
