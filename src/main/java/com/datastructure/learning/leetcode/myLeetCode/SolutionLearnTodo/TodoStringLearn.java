@@ -1,4 +1,4 @@
-package com.datastructure.learning.leetcode.myLeetCode;
+package com.datastructure.learning.leetcode.myLeetCode.SolutionLearnTodo;
 
 /**
  * @author: 59688

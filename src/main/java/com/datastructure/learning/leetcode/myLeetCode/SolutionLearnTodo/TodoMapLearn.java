@@ -1,4 +1,4 @@
-package com.datastructure.learning.leetcode.myLeetCode;
+package com.datastructure.learning.leetcode.myLeetCode.SolutionLearnTodo;
 
 import java.util.Collection;
 import java.util.HashMap;

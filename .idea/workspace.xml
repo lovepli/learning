@@ -22,7 +22,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="" />
+    <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution283.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution1047.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution1047.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution136.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution136.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution189.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution189.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution217.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution217.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution283.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution350.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution350.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution350_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution350_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/Solution66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution66.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/TodoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/SolutionLearnTodo/TodoArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/TodoBigDecimalLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/SolutionLearnTodo/TodoBigDecimalLearn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/TodoMapLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/SolutionLearnTodo/TodoMapLearn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/TodoStringLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/SolutionLearnTodo/TodoStringLearn.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +89,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.40954095" />
@@ -83,27 +104,27 @@
       <recent name="com.datastructure.learning.basicTest.实用帮助类.fastjson的使用.jsonfield的使用" />
       <recent name="com.datastructure.learning.basicTest.多线程和并发.多线程共享数据" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/volatile关键字" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem" />
       <recent name="com.datastructure.learning.leetcode.myLeetCode" />
       <recent name="com.datastructure.learning.basicTest.基础知识.for循环及break和continue的区别" />
       <recent name="com.datastructure.learning.basicTest.基础知识.加加i和i加加" />
       <recent name="com.datastructure.learning.basicTest.validation参数校验.controller" />
-      <recent name="com.datastructure.learning.basicTest.实用帮助类.jackson的使用" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\59688\Documents\GitHub\learning\src\main\java\com\datastructure\learning\leetcode\myLeetCode\ArraySolutionProplem" />
       <recent name="C:\Users\59688\Documents\GitHub\learning" />
       <recent name="D:\Users\59688\Documents\learning" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/java8的新特性" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/BigDecimal类型使用" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/异步请求和调用" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/volatile关键字" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -112,13 +133,13 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.Solution66">
-    <configuration name="Solution350" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.Solution350" />
+  <component name="RunManager" selected="Application.Solution344">
+    <configuration name="Solution283" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.Solution283" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.*" />
+          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.SolutionLearnTodo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution350_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.Solution350_2" />
+    <configuration name="Solution344" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.Solution344" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.*" />
+          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,7 +165,7 @@
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.*" />
+          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.SolutionLearnTodo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +174,11 @@
       </method>
     </configuration>
     <configuration name="TodoBigDecimalLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.TodoBigDecimalLearn" />
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.SolutionLearnTodo.TodoBigDecimalLearn" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.*" />
+          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.SolutionLearnTodo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +187,11 @@
       </method>
     </configuration>
     <configuration name="TodoStringLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.TodoStringLearn" />
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.SolutionLearnTodo.TodoStringLearn" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.*" />
+          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.SolutionLearnTodo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution344" />
+        <item itemvalue="Application.Solution283" />
         <item itemvalue="Application.Solution66" />
         <item itemvalue="Application.TodoBigDecimalLearn" />
         <item itemvalue="Application.TodoStringLearn" />
-        <item itemvalue="Application.Solution350_2" />
-        <item itemvalue="Application.Solution350" />
       </list>
     </recent_temporary>
   </component>

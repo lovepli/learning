@@ -1,8 +1,4 @@
-package com.datastructure.learning.leetcode.myLeetCode;
-
-import cn.hutool.json.JSONArray;
-
-import java.util.Arrays;
+package com.datastructure.learning.leetcode.myLeetCode.ArraySolutionProplem;
 
 /**
  * @author: 59688

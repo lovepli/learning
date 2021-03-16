@@ -1,6 +1,9 @@
-package com.datastructure.learning.leetcode.myLeetCode;
+package com.datastructure.learning.leetcode.myLeetCode.ArraySolutionProplem;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
 
 /**
  * @author: 59688

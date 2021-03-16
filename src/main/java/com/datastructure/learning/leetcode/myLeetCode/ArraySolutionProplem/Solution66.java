@@ -1,4 +1,4 @@
-package com.datastructure.learning.leetcode.myLeetCode;
+package com.datastructure.learning.leetcode.myLeetCode.ArraySolutionProplem;
 
 
 import java.math.BigInteger;
