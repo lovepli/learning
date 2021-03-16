@@ -23,9 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution125.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution14.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
