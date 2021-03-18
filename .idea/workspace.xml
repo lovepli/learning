@@ -23,10 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/StringProplem/Solution1614.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/StringProplem/Solution917.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/StringProplem/Solution917.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/StringProplem/Solution434.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +114,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.Solution1614">
+  <component name="RunManager" selected="Application.Solution434">
     <configuration name="Solution1614" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.StringProplem.Solution1614" />
       <module name="learning" />
@@ -131,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.Solution28" />
+    <configuration name="Solution434" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.StringProplem.Solution434" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.*" />
+          <option name="PATTERN" value="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.StringProplem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution434" />
         <item itemvalue="Application.Solution1614" />
         <item itemvalue="Application.Solution917" />
         <item itemvalue="Application.Solution459" />
         <item itemvalue="Application.Solution88" />
-        <item itemvalue="Application.Solution28" />
       </list>
     </recent_temporary>
   </component>
