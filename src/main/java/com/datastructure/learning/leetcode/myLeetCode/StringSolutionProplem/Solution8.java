@@ -18,9 +18,9 @@ package com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem;
  *
  * 本题中的空白字符只包括空格字符 ' ' 。
  * 除前导空格或数字后的其余字符串外，请勿忽略 任何其他字符。
- *  
  *
- * 示例 1：
+ *
+ * 示例1：
  *
  * 输入：s = "42"
  * 输出：42
@@ -33,7 +33,7 @@ package com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem;
  *            ^
  * 解析得到整数 42 。
  * 由于 "42" 在范围 [-231, 231 - 1] 内，最终结果为 42 。
- * 示例 2：
+ * 示例2：
  *
  * 输入：s = "   -42"
  * 输出：-42
@@ -46,7 +46,7 @@ package com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem;
  *                ^
  * 解析得到整数 -42 。
  * 由于 "-42" 在范围 [-231, 231 - 1] 内，最终结果为 -42 。
- * 示例 3：
+ * 示例3：
  *
  * 输入：s = "4193 with words"
  * 输出：4193
@@ -59,7 +59,7 @@ package com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem;
  *              ^
  * 解析得到整数 4193 。
  * 由于 "4193" 在范围 [-231, 231 - 1] 内，最终结果为 4193 。
- * 示例 4：
+ * 示例4：
  *
  * 输入：s = "words and 987"
  * 输出：0
