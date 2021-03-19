@@ -3,6 +3,8 @@ package com.datastructure.learning.basicTest.常见的排序算法.sort;
 //import static java.util.Arrays.swap;
 
 
+import java.util.Arrays;
+
 /**
  * @author: lipan
  * @date: 2019-06-27
@@ -18,7 +20,7 @@ package com.datastructure.learning.basicTest.常见的排序算法.sort;
  */
 public class MaoPaoSort {
 
-    public static void selectSort_1(int arr[]) {
+    public static int [] selectSort_1(int arr[]) {
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - 1 - i; j++) {
                 if (arr[j] > arr[j + 1]) {
@@ -28,24 +30,14 @@ public class MaoPaoSort {
                 }
             }
         }
+        return arr;
     }
 
-//    public static void selectSort_2(int arr[]) {
-//        for (int i = 0; i < arr.length - 1; i++) {
-//            int num = arr[i];
-//            int index = i;
-//            for (int j = i + 1; j < arr.length; j++) {
-//                if (num > arr[j]) {
-//                    num = arr[j];
-//                    index = j;
-//                }
-//                if (index != i)
-//                    swap(arr, index, i);
-//            }
-//        }
-//    }
+
 
     public static void main(String[] args) {
+        int [] ints={5,1,1,2,0,0};
+        System.out.println(Arrays.toString(selectSort_1(ints)));
 
     }
 
