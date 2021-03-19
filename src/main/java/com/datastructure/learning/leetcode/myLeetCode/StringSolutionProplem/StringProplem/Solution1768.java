@@ -9,7 +9,6 @@ package com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.Str
  *
  * 返回 合并后的字符串 。
  *
- *  
  *
  * 示例 1：
  *
@@ -49,21 +48,60 @@ public class Solution1768 {
 
     /**
      * 思路：先判断两个字符串的长度，将长度较长的一个字符串截取多余的字符，最后来拼接，
-     * 第一个字符串是1,3,5奇数位放置，两外一个字符串是偶数位放置
+     * 第一个字符串是0,2,4..偶数位放置，两外一个字符串是奇数位放置
      * @param word1
      * @param word2
      * @return
      */
     public String mergeAlternately(String word1, String word2) {
 
+
         int k1=word1.length();
         int k2=word2.length();
+
+        int ln=0;
+        StringBuffer sb=new StringBuffer();
         if(k1>=k2){
+            ln=k2*2; //新数组长度(不包含最后的元素)
+            String ss=word1.substring(k2,k1);
 
+            int z=0;
+            int z1=0;
+            while (z<k2 && z1<ln){
+                if(z1%2==0){ // 偶数位
+                    sb.append(word1.charAt(z));
+                    z1++;
+                }
+                if(z1%2==1){ //奇数位
+                    sb.append(word2.charAt(z));
+                    z1++;
+                }
+                z++;
+            }
+            // 追加最后面的几个数
+            sb.append(ss);
         }else {
+            ln=k1*2; //新数组长度
+            String ss=word2.substring(k1,k2);
+            System.out.println("要追加的字符串："+ss);
 
+            int z=0;
+            int z1=0;
+            while (z<k1 && z1<ln){
+                if(z1%2==0){ // 偶数位
+                    sb.append(word1.charAt(z));
+                    z1++;
+                }
+                if(z1%2==1){ //奇数位
+                    sb.append(word2.charAt(z));
+                    z1++;
+                }
+                z++;
+            }
+            // 追加最后面的几个数
+            sb.append(ss);
         }
-    return "";
+    return sb.toString();
     }
 
     /**
@@ -83,6 +121,14 @@ public class Solution1768 {
             }
         }
         return sb.toString();
+    }
+
+    public static void main(String[] args) {
+       // String str="12345";
+        //System.out.println(str.substring(3,5));
+        //String word1 = "abc", word2 = "pqr"; //apbqcr
+        String word1 = "cf", word2 = "eee"; //"cefee"
+        System.out.println("交叉新组成的字符串为："+new Solution1768().mergeAlternately(word1,word2));
     }
 
 }

@@ -23,11 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/StringProplem/Solution125.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/StringProplem/Solution1624.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/StringProplem/Solution1668.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/StringProplem/Solution1768.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/StringProplem/Solution1768.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/StringProplem/Solution1768.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +115,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.Solution125">
+  <component name="RunManager" selected="Application.Solution1768">
     <configuration name="Solution125" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.StringProplem.Solution125" />
       <module name="learning" />
@@ -158,8 +155,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution434" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.StringProplem.Solution434" />
+    <configuration name="Solution1768" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.StringProplem.Solution1768" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
@@ -171,8 +168,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution917" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.StringProplem.Solution917" />
+    <configuration name="Solution434" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.StringProplem.Solution434" />
       <module name="learning" />
       <extension name="coverage">
         <pattern>
@@ -193,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution1768" />
         <item itemvalue="Application.Solution125" />
         <item itemvalue="Application.Solution1668" />
         <item itemvalue="Application.Solution434" />
         <item itemvalue="Application.Solution1614" />
-        <item itemvalue="Application.Solution917" />
       </list>
     </recent_temporary>
   </component>
@@ -274,22 +271,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="541" y="415" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1615777580320" />
-    <state width="1442" height="244" key="GridCell.Tab.0.bottom" timestamp="1616071092739">
+    <state width="1442" height="179" key="GridCell.Tab.0.bottom" timestamp="1616119845586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1442" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616071092739" />
-    <state width="1442" height="244" key="GridCell.Tab.0.center" timestamp="1616071092738">
+    <state width="1442" height="179" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616119845586" />
+    <state width="1442" height="179" key="GridCell.Tab.0.center" timestamp="1616119845586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1442" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616071092738" />
-    <state width="1442" height="244" key="GridCell.Tab.0.left" timestamp="1616071092738">
+    <state width="1442" height="179" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616119845586" />
+    <state width="1442" height="179" key="GridCell.Tab.0.left" timestamp="1616119845585">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1442" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616071092738" />
-    <state width="1442" height="244" key="GridCell.Tab.0.right" timestamp="1616071092739">
+    <state width="1442" height="179" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616119845585" />
+    <state width="1442" height="179" key="GridCell.Tab.0.right" timestamp="1616119845586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1442" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616071092739" />
+    <state width="1442" height="179" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616119845586" />
     <state width="1493" height="220" key="GridCell.Tab.1.bottom" timestamp="1615966669131">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
