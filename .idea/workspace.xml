@@ -23,12 +23,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6641bfd-b811-4deb-97f6-169f62c035c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution912.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/TodoOffer/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/TodoOffer/Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/TodoOffer/Solution5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution153.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution154.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution259.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution54.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution88.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StackAndQueueSolutionProplem/QueueSolutionProplem/MaxQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StackAndQueueSolutionProplem/QueueSolutionProplem/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StackAndQueueSolutionProplem/QueueSolutionProplem/RecentCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StackAndQueueSolutionProplem/QueueSolutionProplem/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StackAndQueueSolutionProplem/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StackAndQueueSolutionProplem/StackSolutionProplem/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StackAndQueueSolutionProplem/StackSolutionProplem/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StackAndQueueSolutionProplem/StackSolutionProplem/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StackAndQueueSolutionProplem/StackSolutionProplem/Solution150.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StackAndQueueSolutionProplem/StackSolutionProplem/Solution20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StackAndQueueSolutionProplem/StackSolutionProplem/Solution227.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StackAndQueueSolutionProplem/StackSolutionProplem/Solution739.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution345.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution383.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/SumarySolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ToDoMethods/Sumary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/mysqlLearn/mysqlLearn.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/常见的排序算法/sort/MaoPaoSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/常见的排序算法/sort/MaoPaoSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/LinkedSolutionProplem/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/LinkedSolutionProplem/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/StringSolutionProplem/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +101,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/leetcode/myLeetCode/ArraySolutionProplem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/datastructure/learning/mysqlLearn" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.40954095" />
@@ -90,27 +116,27 @@
       <recent name="com.datastructure.learning.basicTest.实用帮助类.fastjson的使用.jsonfield的使用" />
       <recent name="com.datastructure.learning.basicTest.多线程和并发.多线程共享数据" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.datastructure.learning.leetcode.myLeetCode.ArraySolutionProplem" />
-      <recent name="com.datastructure.learning.leetcode.myLeetCode.TodoOffer" />
-      <recent name="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem.StringProplem" />
-      <recent name="com.datastructure.learning.leetcode.myLeetCode.SortAndQuerySolutionProplem" />
-      <recent name="com.datastructure.learning.leetcode.myLeetCode.LinkedSolutionProplem" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\59688\Documents\GitHub\learning\src\main\java\com\datastructure\learning\leetcode\myLeetCode\ArraySolutionProplem" />
-      <recent name="C:\Users\59688\Documents\GitHub\learning" />
-      <recent name="D:\Users\59688\Documents\learning" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/java8的新特性" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/BigDecimal类型使用" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/volatile关键字" />
       <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/设计模式" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.datastructure.learning.leetcode.myLeetCode.StackAndQueueSolutionProplem.StackSolutionProplem" />
+      <recent name="com.datastructure.learning.leetcode.myLeetCode.StackAndQueueSolutionProplem.QueueSolutionProplem" />
+      <recent name="com.datastructure.learning.leetcode.myLeetCode.StackAndQueueSolutionProplem" />
+      <recent name="com.datastructure.learning.leetcode.myLeetCode.StringSolutionProplem" />
+      <recent name="com.datastructure.learning.leetcode.myLeetCode.ArraySolutionProplem" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\59688\Documents\GitHub\learning\src\main\java\com\datastructure\learning\mysqlLearn" />
+      <recent name="C:\Users\59688\Documents\GitHub\learning\src\main\java\com\datastructure\learning\leetcode\myLeetCode\ArraySolutionProplem" />
+      <recent name="C:\Users\59688\Documents\GitHub\learning" />
+      <recent name="D:\Users\59688\Documents\learning" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/datastructure/learning/basicTest/java8的新特性" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -271,42 +297,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1615863050270" />
-    <state x="541" y="415" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1615777580320">
+    <state x="541" y="415" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1616486768919">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="541" y="415" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1615777580320" />
-    <state width="1442" height="143" key="GridCell.Tab.0.bottom" timestamp="1616141900097">
+    <state x="541" y="415" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1616486768919" />
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1616382993008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1442" height="143" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616141900097" />
-    <state width="1442" height="143" key="GridCell.Tab.0.center" timestamp="1616141900097">
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616382993008" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1616382993008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1442" height="143" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616141900097" />
-    <state width="1442" height="143" key="GridCell.Tab.0.left" timestamp="1616141900096">
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616382993008" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1616382993008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1442" height="143" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616141900096" />
-    <state width="1442" height="143" key="GridCell.Tab.0.right" timestamp="1616141900097">
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616382993008" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1616382993008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1442" height="143" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616141900097" />
-    <state width="1493" height="220" key="GridCell.Tab.1.bottom" timestamp="1615966669131">
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616382993008" />
+    <state width="1493" height="220" key="GridCell.Tab.1.bottom" timestamp="1616382993009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615966669131" />
-    <state width="1493" height="220" key="GridCell.Tab.1.center" timestamp="1615966669131">
+    <state width="1493" height="220" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616382993009" />
+    <state width="1493" height="220" key="GridCell.Tab.1.center" timestamp="1616382993008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1615966669131" />
-    <state width="1493" height="220" key="GridCell.Tab.1.left" timestamp="1615966669131">
+    <state width="1493" height="220" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1616382993008" />
+    <state width="1493" height="220" key="GridCell.Tab.1.left" timestamp="1616382993008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1615966669131" />
-    <state width="1493" height="220" key="GridCell.Tab.1.right" timestamp="1615966669131">
+    <state width="1493" height="220" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1616382993008" />
+    <state width="1493" height="220" key="GridCell.Tab.1.right" timestamp="1616382993008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1615966669131" />
+    <state width="1493" height="220" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1616382993008" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1615255875454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -315,10 +341,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="584" y="190" width="600" height="594" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1615451399573" />
-    <state x="466" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1616072163818">
+    <state x="466" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1616460040546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="466" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1616072163818" />
+    <state x="466" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1616460040546" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
